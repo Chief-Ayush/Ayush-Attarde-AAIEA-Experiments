@@ -1,0 +1,87 @@
+{
+ "tests": 57,
+ "passed": 39,
+ "failed": 18,
+ "pass_rate_pct": 68.42,
+ "by_category": {
+  "boundaries": 100.0,
+  "buried urgency": 66.7,
+  "instructions": 83.3,
+  "language": 50.0,
+  "misleading words": 25.0,
+  "mixed requests": 50.0,
+  "negation": 33.3,
+  "odd input": 100.0,
+  "paraphrase": 83.3,
+  "tone": 50.0
+ },
+ "hard_cases": 48,
+ "hard_pass": 33,
+ "hard_pass_pct": 68.75,
+ "control_cases": 9,
+ "control_pass": 6,
+ "control_pass_pct": 66.67,
+ "failed_ids": [
+  "H02",
+  "H03",
+  "H04",
+  "H05",
+  "H10",
+  "H11",
+  "H13",
+  "H14",
+  "H21",
+  "H23",
+  "H26",
+  "H27",
+  "H28",
+  "H29",
+  "H32",
+  "H35",
+  "H36",
+  "H40"
+ ],
+ "batch_id": "EVAL-hard-D8D32",
+ "by_group": {
+  "boundaries": {
+   "cases": 9,
+   "pass": 9
+  },
+  "buried urgency": {
+   "cases": 6,
+   "pass": 4
+  },
+  "instructions": {
+   "cases": 6,
+   "pass": 5
+  },
+  "language": {
+   "cases": 6,
+   "pass": 3
+  },
+  "misleading words": {
+   "cases": 4,
+   "pass": 1
+  },
+  "mixed requests": {
+   "cases": 4,
+   "pass": 2
+  },
+  "negation": {
+   "cases": 6,
+   "pass": 2
+  },
+  "odd input": {
+   "cases": 6,
+   "pass": 6
+  },
+  "paraphrase": {
+   "cases": 6,
+   "pass": 5
+  },
+  "tone": {
+   "cases": 4,
+   "pass": 2
+  }
+ }
+}

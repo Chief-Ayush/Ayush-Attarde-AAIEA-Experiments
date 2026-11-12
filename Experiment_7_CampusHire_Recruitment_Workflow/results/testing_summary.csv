@@ -1,0 +1,202 @@
+suite,id,category,test,expected,observed,result
+functional,T01,Manual 15 cases,Valid candidate record,"Accepted, scored 80x0.4+70x0.3+90x0.3 = 80",score 80.0,PASS
+functional,T02,Manual 15 cases,Missing e-mail address,Quarantined with MISSING_FIELD and a next action,MISSING_FIELD,PASS
+functional,T03,Manual 15 cases,Duplicate candidate ID with different data,"Both rows quarantined as DUPLICATE_CONFLICT, none silently dropped","2 quarantined, 0 valid",PASS
+functional,T04,Manual 15 cases,Score outside 0-100,Quarantined as OUT_OF_RANGE,OUT_OF_RANGE,PASS
+functional,T05,Manual 15 cases,Overall score exactly 75,SHORTLIST_REVIEW,75.0 -> SHORTLIST_REVIEW,PASS
+functional,T06,Manual 15 cases,Overall score 74.99,MANUAL_REVIEW (not shortlisted by rounding),74.99 -> MANUAL_REVIEW,PASS
+functional,T07,Manual 15 cases,Overall score exactly 50,MANUAL_REVIEW,50.0 -> MANUAL_REVIEW,PASS
+functional,T08,Manual 15 cases,Low score below 50,"NOT_SHORTLISTED_REVIEW, notification does not announce a rejection",20.0 -> NOT_SHORTLISTED_REVIEW; draft issues: none,PASS
+functional,T09,Manual 15 cases,Notification template for every status,"DRAFT marker, name and reference, no score, no final decision",all 4 templates clean,PASS
+functional,T10,Manual 15 cases,Reviewer overrides the proposed status,Override accepted only with a documented reason; the reason is stored,without reason: INPUT; with reason: MANUAL_REVIEW,PASS
+functional,T11,Manual 15 cases,Notification delivery fails,"Retried twice, outcome FAILED, recorded in the audit log",FAILED after 3 attempts,PASS
+functional,T12,Manual 15 cases,Same file processed twice,"Second run adds nothing: no duplicate candidates, drafts or notifications","after run 1 (2, 2, 2), after run 2 (2, 2, 2)",PASS
+functional,T13,Manual 15 cases,Viewer tries to approve a candidate,"Refused as SECURITY, nothing stored, attempt in the audit log",SECURITY; denied events: 1,PASS
+functional,T14,Manual 15 cases,Audit trail of one candidate,"Ingest, score, draft, decision, approval and dispatch recorded with the manual's fields",candidate_ingested > candidate_scored > draft_created > review_decision > draft_approved > notification_dispatched,PASS
+functional,T15,Manual 15 cases,Candidate text tries to change the rules,Flagged for the reviewer; score and rules.json unchanged,"flagged=True, score 80.0 vs 80.0, rules unchanged=True",PASS
+functional,F01,Input files,CSV file loads,"120 records, all required headers present",120 rows,PASS
+functional,F02,Input files,JSON file gives the same result as CSV,Identical validation and scores,"[64.0, 66.0, 68.0, 70.0, 72.0, 74.0] == [64.0, 66.0, 68.0, 70.0, 72.0, 74.0]",PASS
+functional,F03,Input files,File with missing header columns,INPUT error that names the missing columns,"INPUT: column(s): email, experience_score, assessment_score, application_role",PASS
+functional,F04,Input files,Workflow on a file with a missing header,"Stops safely, status failed, error in the audit log",status failed; inspect_source: Error executing tool inspect_source: [INPUT] Missing c,PASS
+functional,F05,Input files,Malformed JSON,"INPUT error, no crash",INPUT: Error executing tool load_source: [INPUT] Malformed JSON: Expecting pr,PASS
+functional,F06,Input files,Missing file,INPUT error naming the file,INPUT: Error executing tool load_source: [INPUT] File not found: nope.csv,PASS
+functional,F07,Input files,Empty file with no header row,INPUT error,INPUT: Error executing tool load_source: [INPUT] Malformed CSV: no header row,PASS
+functional,F08,Input files,"Header only, no rows","Zero records, workflow ends cleanly","0 records, completed",PASS
+functional,V01,Validation,"Whitespace, case and e-mail upper-case",Normalised and accepted,T050 ann@example.com Data Analyst,PASS
+functional,V02,Validation,Non-numeric score ('abc'),INVALID_NUMBER,INVALID_NUMBER,PASS
+functional,V03,Validation,Negative score,OUT_OF_RANGE,OUT_OF_RANGE,PASS
+functional,V04,Validation,NaN and infinity as scores,"Rejected, never reach the scoring step",3 of 3 rejected,PASS
+functional,V05,Validation,Unknown application role,UNKNOWN_ROLE,UNKNOWN_ROLE,PASS
+functional,V06,Validation,Malformed e-mail addresses,All five rejected,5 of 5 rejected,PASS
+functional,V07,Validation,Identical repeated row in the same file,"Second copy quarantined as DUPLICATE_REPEAT, first kept","1 valid, ['DUPLICATE_REPEAT']",PASS
+functional,V08,Validation,Same e-mail on two candidate IDs,Both accepted with a SAME_EMAIL flag for the reviewer,2 valid; flags ['SAME_EMAIL'],PASS
+functional,V09,Validation,Candidate ID with SQL-like text,Rejected by the ID rule,INVALID_ID,PASS
+functional,V10,Validation,Very long name and unicode name,5000-character name rejected (INVALID_FIELD); unicode accepted,unicode accepted=True; long name rejected,PASS
+functional,V11,Validation,Counts add up,valid + quarantined + skipped = total on the 120-record file,"{'total': 120, 'valid': 104, 'rejected': 16, 'skipped': 0, 'duplicates': 6}",PASS
+functional,R01,Rules,Rules file missing,"INPUT error, workflow fails safely with no scores",failed: score_candidates: Error executing tool score_candidates: [INPUT] Rules file not ,PASS
+functional,R02,Rules,Rules file is not valid JSON,INPUT error,INPUT: Error executing tool get_rules: [INPUT] Malformed rules file: Expecting property,PASS
+functional,R03,Rules,Weights do not add up to 100,Rules refused,INPUT: Error executing tool get_rules: [INPUT] Weights must add up to 100 (1.0/Junior S,PASS
+functional,R04,Rules,Rules use an undocumented criterion (college),Refused: only job-related criteria are allowed,INPUT: Error executing tool get_rules: [INPUT] Criterion 'college' is not a documented ,PASS
+functional,R05,Rules,Thresholds in the wrong order,Rules refused,INPUT: Error executing tool get_rules: [INPUT] Thresholds must satisfy 0 <= manual_revi,PASS
+functional,R06,Rules,Rule version recorded with every score,Each result and audit record carries the version,versions {'1.0'},PASS
+functional,R07,Rules,"Rule version 1.1 changes weights, not the record",Score recomputed with the 1.1 weights and tagged 1.1,"1.0: 80.0, 1.1: 82.5 (expected 82.5)",PASS
+functional,R08,Rules,Different weights per role,Data Analyst uses 30/25/45,82.0 (expected 82.0),PASS
+functional,R09,Rules,Explanation lists every criterion,Contributions add up to the score,80.0 == 80.0,PASS
+functional,R10,Rules,Unknown rule version requested,INPUT error,failed list,PASS
+functional,R11,Rules,Score computed twice gives the same number,Identical over 5 runs,{74.99},PASS
+hitl,H01,Review actions,APPROVE keeps the proposed status,final = proposed; message approved; SENT,"SHORTLIST_REVIEW, notification SENT",PASS
+hitl,H02,Review actions,EDIT to another status with reason,"Final status changed, override stored, draft regenerated for the new status","NOT_SHORTLISTED_REVIEW -> MANUAL_REVIEW, template MANUAL_REVIEW, SENT",PASS
+hitl,H03,Review actions,EDIT to another status without a reason,"Refused (INPUT), no decision stored",INPUT: Error executing tool record_review: [INPUT] A documented override reas,PASS
+hitl,H04,Review actions,EDIT with an invalid status,Refused,INPUT,PASS
+hitl,H05,Review actions,HOLD with a note,ON_HOLD; message NOT_SENT; nothing dispatched,"ON_HOLD, notification NOT_SENT",PASS
+hitl,H06,Review actions,HOLD without a note,Refused,INPUT,PASS
+hitl,H07,Review actions,REQUEST_INFO,AWAITING_INFORMATION; information-request template sent after approval,"AWAITING_INFORMATION, REQUEST_INFO, SENT",PASS
+hitl,H08,Review actions,Unknown review action,Refused,INPUT,PASS
+hitl,H09,Review actions,"Reviewer identity, role and time recorded","reviewer, role and timestamp in the decision and the audit record",priya.reviewer (hr_reviewer) at 2026-10-26T06:33:37+00:00,PASS
+hitl,H10,Review actions,Later decision replaces the earlier one,History keeps both; latest is used,"['HOLD', 'APPROVE']",PASS
+hitl,H11,Message gate,Dispatch before the message is approved,Refused; message stays DRAFT,SECURITY; state DRAFT,PASS
+hitl,H12,Message gate,Approve the message before the reviewer decided,Refused,INPUT: Error executing tool approve_draft: [INPUT] The candidate ha,PASS
+hitl,H13,Message gate,Approve a message that no longer matches the decision,Refused until the draft is regenerated,INPUT: Error executing tool approve_draft: [INPUT] The draft does n,PASS
+hitl,H14,Message gate,Reviewer edits the message text,"Edit accepted, goes back to DRAFT, needs approval, the edited text is what is sent","after edit DRAFT, then SENT",PASS
+hitl,H15,Message gate,Edited text that reveals the score,Edit refused,INPUT: Error executing tool edit_draft: [INPUT] Edited text refused: draft is,PASS
+hitl,H16,Message gate,Edited text that announces a final rejection,Edit refused,INPUT: Error executing tool edit_draft: [INPUT] Edited text refused: draft is,PASS
+hitl,H17,Message gate,Dispatch the same message twice,Sent once; second call reports 'already sent'; one dispatch audit record,SENT / already sent - not sent again; dispatch records 1,PASS
+hitl,H18,Delivery,Delivery failure then outcome,FAILED after 1 + 2 attempts; other candidates still sent,"B1 FAILED (3 attempts), B2 SENT",PASS
+hitl,H19,Delivery,Retry limit follows the setting,notification_retries = 0 gives a single attempt,FAILED after 1 attempt,PASS
+hitl,H20,SLA,Candidates waiting longer than the SLA,Reminders written for all waiting candidates after 72 h,"overdue 2, new 2",PASS
+hitl,H21,SLA,SLA check repeated,No second reminder for the same candidates,"overdue 2, new 0",PASS
+hitl,H22,SLA,Nothing overdue inside the SLA,No reminders at +10 h,overdue 0,PASS
+hitl,H23,SLA,Reviewed candidates are not reminded,Only the undecided one is reported,['H2'],PASS
+hitl,H24,Workflow,LangGraph pauses before any decision,"Interrupt pending, no notification sent before resume","pending=True, sent=0",PASS
+hitl,H25,Workflow,Resume with decisions,"Decisions applied, messages sent, report produced","completed; H1 SENT, H2 NOT_SENT",PASS
+hitl,H26,Workflow,Partial review,Undecided candidate gets no notification,"H2 DRAFT, completion 0.5",PASS
+hitl,H27,Workflow,Reviewer with a viewer role cannot resume the workflow with decisions,"Decisions refused, nothing sent",sent 0; H1: Error executing tool record_review: [SECURITY] Meera Iyer (viewer),PASS
+security,S01,Access control,Viewer records a decision,SECURITY error,SECURITY,PASS
+security,S02,Access control,Viewer sends a notification,SECURITY error,SECURITY,PASS
+security,S03,Access control,HR reviewer resets a drive,SECURITY error; data intact,SECURITY; candidates kept: 1,PASS
+security,S04,Access control,Admin resets a drive,Allowed; audit log keeps its records,reset ok=True; audit rows 5 -> 6,PASS
+security,S05,Access control,Unknown user,SECURITY error and an audit record,SECURITY,PASS
+security,S06,Access control,Caller cannot choose its own role,"No tool accepts a user-role, admin or permission argument",tools with a role parameter: none,PASS
+security,S07,Access control,Every write tool checks permission,Each write tool refuses an unknown user,10 of 10 refused,PASS
+security,S08,Prompt injection,Eight instruction-style cover notes,Scores identical to the same candidate with a clean note; text flagged,all scores 80.0: True; flagged 8 of 8,PASS
+security,S09,Prompt injection,Paraphrased instruction with no trigger words,Flagged for the reviewer (known limitation of pattern matching),flagged=False,FAIL
+security,S10,Prompt injection,Instruction text inside the candidate name,Flagged; score unaffected,flagged=True,PASS
+security,S11,Prompt injection,rules.json unchanged after a run with hostile notes,Hash identical before and after,rules.json hash unchanged,PASS
+security,S12,Prompt injection,Flagged candidate reaches a person,Auto policy holds flagged candidates; no message sent,notification NOT_SENT,PASS
+security,S13,Input safety,Path traversal in the file path,SECURITY error,SECURITY,PASS
+security,S14,Input safety,Absolute path outside the project,SECURITY error,SECURITY,PASS
+security,S15,Input safety,Formula injection in a quarantined name,Written to rejected_records.csv with a leading quote,"stored as '=HYPERLINK(""http://",PASS
+security,S16,Input safety,Line breaks in a name cannot inject mail headers,Draft contains a single line greeting,"Dear Eve  Bcc: boss@example.com,",PASS
+security,S17,Input safety,SQL-like text in candidate fields,"No error, tables intact",candidates stored: 1,PASS
+security,S18,Notification content,"No draft in a full run shows a score, a final decision or another candidate",0 problems in all drafts of the 120-record run,"100 drafts checked, 0 problems",PASS
+security,S19,Audit integrity,UPDATE and DELETE on the audit table,Blocked by the database,"['blocked', 'blocked']",PASS
+security,S20,Audit integrity,Hash chain after normal use,Verifies,37405 rows,PASS
+security,S21,Audit integrity,Tampering with a stored audit row (triggers bypassed),Chain verification reports the first changed row,"clean=True; after tamper ok=False, first bad row 3",PASS
+security,S22,Tool safety,Risk levels declared by the servers,Dispatch and reset are HIGH; read tools are LOW,"dispatch HIGH, reset HIGH, get_rules LOW",PASS
+security,S23,Tool safety,Arguments of the wrong type,Rejected on the client before the call,"INPUT, attempts 0",PASS
+security,S24,Tool safety,Unknown tool name,INPUT error,INPUT,PASS
+failure,M01,INPUT,Wrong argument type,"Rejected before the call, no retry","INPUT, attempts 0",PASS
+failure,M02,INPUT,Server reports a bad file,"INPUT, one attempt (not retried)","INPUT, attempts 1",PASS
+failure,M03,TOOL,Tool returns an error result,"TOOL, one attempt","TOOL, attempts 1",PASS
+failure,M04,SECURITY,Forbidden path,"SECURITY, one attempt","SECURITY, attempts 1",PASS
+failure,M05,TIMEOUT,"Slow tool, first attempt times out","Retried, succeeds on attempt 2","ok=True, attempts 2",PASS
+failure,M06,TIMEOUT,Tool never answers within the limit,"Gives up after 1 + 2 attempts, TIMEOUT","TIMEOUT, attempts 3",PASS
+failure,M07,EXECUTION,Transient failure once,"Retried, succeeds on attempt 2","ok=True, attempts 2",PASS
+failure,M08,EXECUTION,Persistent failure,Gives up after 1 + 2 attempts,"EXECUTION, attempts 3",PASS
+failure,M09,EXECUTION,Retry policy 'none',One attempt only,attempts 1,PASS
+failure,M10,EXECUTION,Server process crashes during a call,"Client reconnects, the call is retried and succeeds","ok=True, reconnects +1, attempts 2",PASS
+failure,M11,Workflow,Transient failure inside a full run,Workflow retries and completes with all candidates processed,"completed, scored 6 of 6",PASS
+failure,M12,Workflow,One scoring chunk fails permanently (batch mode),"Other chunks processed, failure reported, no notification for unscored candidates",scored 15 of 25; errors 1; drafts 15,PASS
+failure,M13,Workflow,Rules file removed before scoring,"Workflow marked failed, nothing scored, no message created",failed,PASS
+failure,M14,Workflow,Delivery failure for one candidate,"Other messages still sent, failure recorded","{'FAILED': 1, 'SENT': 4}",PASS
+failure,M15,Workflow,Failed workflow is recorded in the audit log,workflow_failed event with the reason,1 event(s),PASS
+failure,M16,Workflow,Server crash in the middle of a run,Run completes after reconnect,"completed, drafts 5",PASS
+failure,M17,Concurrency,Parallel writers on the database,No 'database is locked' error in a parallel run of 120 records,"0 failed calls, 0 lock errors",PASS
+hard,HC01,number,Score with trailing blanks and a plus sign,"valid, score 82.0 SHORTLIST_REVIEW",valid=True code=OK score=82.0 (expected 82.0) SHORTLIST_REVIEW,PASS
+hard,HC02,number,Score with many decimals,"valid, score 82.05 SHORTLIST_REVIEW",valid=True code=OK score=82.05 (expected 82.05) SHORTLIST_REVIEW,PASS
+hard,HC03,number,Word instead of a number,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC04,number,Comma as decimal separator,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC05,number,Hexadecimal score,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC06,number,Percent sign after the score (Excel percent format),"valid, score 82.0 SHORTLIST_REVIEW",valid=True code=OK score=82.0 (expected 82.0) SHORTLIST_REVIEW,PASS
+hard,HC07,number,Scientific notation,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC08,number,Underscore digit separator,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC09,number,Arabic-Indic digits,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC10,number,Full-width digits,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC11,rounding,Exact score 74.995 (below the shortlist threshold),"valid, score 75.0 MANUAL_REVIEW",valid=True code=OK score=75.0 (expected 75.0) MANUAL_REVIEW,PASS
+hard,HC12,rounding,Exact score 49.995 (below the manual-review threshold),"valid, score 49.99 NOT_SHORTLISTED_REVIEW",valid=True code=OK score=50.0 (expected 49.99) NOT_SHORTLISTED_REVIEW,PASS
+hard,HC13,rounding,Exact score 75.000,"valid, score 75.0 SHORTLIST_REVIEW",valid=True code=OK score=75.0 (expected 75.0) SHORTLIST_REVIEW,PASS
+hard,HC14,rounding,Exact score 50.000,"valid, score 50.0 MANUAL_REVIEW",valid=True code=OK score=50.0 (expected 50.0) MANUAL_REVIEW,PASS
+hard,HC15,rounding,"Scores 100, 100, 100","valid, score 100.0 SHORTLIST_REVIEW",valid=True code=OK score=100.0 (expected 100.0) SHORTLIST_REVIEW,PASS
+hard,HC16,rounding,"Scores 0, 0, 0","valid, score 0.0 NOT_SHORTLISTED_REVIEW",valid=True code=OK score=0.0 (expected 0.0) NOT_SHORTLISTED_REVIEW,PASS
+hard,HC17,rounding,Just above 100,quarantined OUT_OF_RANGE,valid=False code=OUT_OF_RANGE,PASS
+hard,HC18,role,Role in capitals,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC19,role,Role with tabs and double spaces,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC20,role,Role the drive does not offer,quarantined UNKNOWN_ROLE,valid=False code=UNKNOWN_ROLE,PASS
+hard,HC21,role,Abbreviated role (Jr Software Developer),"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC22,role,"Reordered role (Software Developer, Junior)","valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC23,role,Hyphenated role (Data-Analyst),"valid, score 72.0 MANUAL_REVIEW",valid=True code=OK score=72.0 (expected 72.0) MANUAL_REVIEW,PASS
+hard,HC24,id,Lower-case candidate id,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC25,id,Candidate id with a Cyrillic letter,quarantined INVALID_ID,valid=False code=INVALID_ID,PASS
+hard,HC26,id,Candidate id with SQL text,quarantined INVALID_ID,valid=False code=INVALID_ID,PASS
+hard,HC27,id,Candidate id with an invisible zero-width space,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC28,name,Accented and non-Latin names,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC29,name,Name only made of invisible characters,quarantined MISSING_FIELD,valid=False code=MISSING_FIELD,PASS
+hard,HC30,email,E-mail without a top-level domain,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC31,email,Two at-signs,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC32,email,Space inside the address,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC33,email,International domain name,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW,PASS
+hard,HC34,email,Local part ending with a dot,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC35,email,Domain starting with a hyphen,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC36,email,mailto: prefix pasted from a link,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC37,identity,Applicant A (same address as the next record),"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC38,identity,Same e-mail on another candidate id,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC39,identity,Gmail dot variant of an existing address (meera.k vs meerak),"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC40,identity,Same address as the one before without the dot,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC41,identity,Plus-address of an existing applicant,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC42,text,Instruction in capitals,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC43,text,Instruction posing as the assistant,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC44,text,Harmless cover note,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC45,text,Harmless note mentioning the word score,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC46,text,Instruction in Spanish,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC47,text,Instruction with an invisible character inside the keyword,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC48,text,Instruction in leetspeak,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC49,text,Paraphrased request for full marks,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC50,text,Instruction hidden in a long polite note,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC51,text,Harmless note about a project that parses rules.json,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC52,text,Harmless note: 'system:' as a label in a project title,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC53,text,Instruction in German,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC54,text,Instruction in Hindi,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC55,text,Instruction with a Cyrillic letter standing in for a Latin one,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC56,text,Instruction encoded in Base64,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC57,text,Request to rank above everyone else,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC58,text,Request to skip verification of the scores,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC59,text,Harmless note: strong self-assessment,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC60,text,Harmless note about a team ranking,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC61,text,Harmless note: 'top candidate' for a scholarship,"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected False),FAIL
+hard,HC62,number,Score written as '85 out of 100',"valid, score 82.0 SHORTLIST_REVIEW",valid=False code=INVALID_NUMBER score=None (expected 82.0) None,FAIL
+hard,HC63,number,Score written as a fraction '85/100',"valid, score 82.0 SHORTLIST_REVIEW",valid=False code=INVALID_NUMBER score=None (expected 82.0) None,FAIL
+hard,HC64,number,Score written in words,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC65,number,Two decimal points,quarantined INVALID_NUMBER,valid=False code=INVALID_NUMBER,PASS
+hard,HC66,email,E-mail with a non-Latin top-level domain,"valid, score 80.0 SHORTLIST_REVIEW",valid=False code=INVALID_EMAIL score=None (expected 80.0) None,FAIL
+hard,HC67,email,E-mail ending with a dot,quarantined INVALID_EMAIL,valid=False code=INVALID_EMAIL,PASS
+hard,HC68,identity,Applicant R (name used again below),"valid, score 80.0 SHORTLIST_REVIEW",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected False),PASS
+hard,HC69,identity,"Same person: first and last name swapped, new address","valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC70,identity,"Same person: same name with extra spaces, new address","valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=False (expected True),FAIL
+hard,HC71,text,Instruction written in the name field,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HC72,text,Instruction written in the college field,"valid, score 80.0 SHORTLIST_REVIEW, flagged",valid=True code=OK score=80.0 (expected 80.0) SHORTLIST_REVIEW flagged=True (expected True),PASS
+hard,HF01,file,UTF-8 file with a byte-order mark and Windows line endings,2 records loaded,loaded 2 records,PASS
+hard,HF02,file,Semicolon-separated file (Excel in many locales),2 records loaded,loaded 2 records,PASS
+hard,HF03,file,Windows-1252 encoded file with an accented name,2 records loaded,loaded 2 records,PASS
+hard,HF04,file,"Headers written as 'Candidate ID', 'E-mail' in any case",2 records loaded,loaded 2 records,PASS
+hard,HF05,file,Cover note with a comma and a line break inside quotes,"2 records, note kept whole",loaded 2 records,PASS
+hard,HF06,file,Extra unknown column,"Loaded, extra column ignored",loaded 2 records,PASS
+hard,HF07,file,Blank lines between the records,"2 records, blanks ignored",loaded 2 records,PASS
+hard,HF08,file,UTF-16 file,"Clear INPUT error, no crash",INPUT: T] Malformed file: not valid UTF-8 text (invalid start byte),PASS
+hard,HF09,file,Header with a repeated column,INPUT error naming the duplicate column,INPUT: oad_source: [INPUT] Malformed CSV: repeated column(s): email,PASS
+hard,HF10,file,Row with one value too many,INPUT error naming the line,INPUT: : [INPUT] Malformed CSV: line 2 has more values than columns,PASS
+hard,HF11,file,Tab-separated file saved as .csv,2 records loaded,loaded 2 records,PASS
+hard,HF12,file,File with only a byte-order mark,"INPUT error, no crash",INPUT: uting tool load_source: [INPUT] Malformed CSV: no header row,PASS
+hard,HF13,file,Title row above the header row,2 records loaded,INPUT: : [INPUT] Malformed CSV: line 2 has more values than columns,FAIL
+hard,HF14,file,File saved with the .tsv extension,2 records loaded,INPUT: rce: [INPUT] Unsupported file type: .tsv (use .csv or .json),FAIL
+hard,HF15,file,JSON Lines file (one record per line),2 records loaded,INPUT: e: [INPUT] Unsupported file type: .jsonl (use .csv or .json),FAIL
+hard,HF16,file,Excel workbook (.xlsx),2 records loaded,INPUT: ce: [INPUT] Unsupported file type: .xlsx (use .csv or .json),FAIL

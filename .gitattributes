@@ -1,0 +1,6 @@
+# Normalise line endings (the experiments were developed on Windows)
+* text=auto
+*.ipynb text eol=lf
+*.pdf binary
+*.pkl binary
+*.db binary

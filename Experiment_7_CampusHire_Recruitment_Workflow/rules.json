@@ -1,0 +1,37 @@
+{
+  "rule_version": "1.0",
+  "active_version": "1.0",
+  "criteria_catalogue": {
+    "skills_score": {"label": "Skills", "rationale": "Role-related skills assessment (programming for developers, SQL and statistics for analysts)."},
+    "experience_score": {"label": "Relevant experience", "rationale": "Internships, projects and prior work relevant to the role."},
+    "assessment_score": {"label": "Technical assessment", "rationale": "Score in the drive's standard technical test."}
+  },
+  "versions": {
+    "1.0": {
+      "description": "Baseline weights (the lab manual's formula for developers).",
+      "roles": {
+        "Junior Software Developer": {
+          "criteria": {"skills_score": 40, "experience_score": 30, "assessment_score": 30},
+          "thresholds": {"shortlist_review": 75, "manual_review": 50}
+        },
+        "Data Analyst": {
+          "criteria": {"skills_score": 30, "experience_score": 25, "assessment_score": 45},
+          "thresholds": {"shortlist_review": 75, "manual_review": 50}
+        }
+      }
+    },
+    "1.1": {
+      "description": "Gives the technical assessment more weight than self-reported experience.",
+      "roles": {
+        "Junior Software Developer": {
+          "criteria": {"skills_score": 35, "experience_score": 20, "assessment_score": 45},
+          "thresholds": {"shortlist_review": 75, "manual_review": 50}
+        },
+        "Data Analyst": {
+          "criteria": {"skills_score": 30, "experience_score": 20, "assessment_score": 50},
+          "thresholds": {"shortlist_review": 75, "manual_review": 50}
+        }
+      }
+    }
+  }
+}

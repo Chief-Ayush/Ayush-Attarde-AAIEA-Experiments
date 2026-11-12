@@ -1,0 +1,527 @@
+[
+ {
+  "article_id": "KB001",
+  "title": "Reset a forgotten password",
+  "intent": "Login / Access",
+  "keywords": [
+   "forgot password",
+   "reset password",
+   "password reset",
+   "reset link"
+  ],
+  "approved": true,
+  "version": 5,
+  "owner": "Access Support",
+  "last_reviewed": "2026-09-02",
+  "sample_questions": [
+   "How do I reset my password?",
+   "I forgot my password and cannot sign in",
+   "The password reset email never arrived",
+   "I do not remember my password",
+   "How can I set a new password",
+   "Forgot the password for my TaskNest login",
+   "The password reset mail is missing",
+   "My reset link is not working",
+   "I want to reset the password of my account",
+   "Can't recall my sign-in password, what now",
+   "Where is the forgot password option",
+   "Can't remember my login password, how do I recover it",
+   "The email with the new password link has not come through",
+   "The link to choose a new password is broken",
+   "I need a fresh password for my account"
+  ],
+  "response": "You can reset your password from the sign-in page: choose 'Forgot password', enter your work email and open the link we send (valid for 30 minutes). If no email arrives within 5 minutes, check spam and confirm the address on your account."
+ },
+ {
+  "article_id": "KB002",
+  "title": "Account locked after failed sign-in attempts",
+  "intent": "Login / Access",
+  "keywords": [
+   "account locked",
+   "locked out",
+   "too many attempts",
+   "unlock"
+  ],
+  "approved": true,
+  "version": 4,
+  "owner": "Access Support",
+  "last_reviewed": "2026-08-21",
+  "sample_questions": [
+   "My account is locked after too many failed attempts",
+   "How long does an account lockout last?",
+   "I am locked out of TaskNest",
+   "My account is locked",
+   "I am locked out after entering the wrong password",
+   "How do I unlock my account",
+   "Account says too many attempts, try later",
+   "Locked out for fifteen minutes, can I speed that up",
+   "Login blocked because of failed attempts",
+   "I got blocked from signing in after a few wrong tries",
+   "When does the sign-in block end",
+   "How soon can I try logging in again after being locked"
+  ],
+  "response": "After five failed sign-in attempts an account is locked for 15 minutes. Wait for the lock to expire or reset your password from the sign-in page to unlock it immediately."
+ },
+ {
+  "article_id": "KB003",
+  "title": "Two-factor authentication and lost devices",
+  "intent": "Login / Access",
+  "keywords": [
+   "two-factor",
+   "2fa",
+   "authenticator",
+   "verification code"
+  ],
+  "approved": true,
+  "version": 6,
+  "owner": "Access Support",
+  "last_reviewed": "2026-09-15",
+  "sample_questions": [
+   "I lost my phone and cannot get the verification code",
+   "How do I turn off two-factor authentication?",
+   "My authenticator app codes are rejected",
+   "My two-factor codes are not accepted",
+   "I do not have my 2FA device anymore",
+   "Authenticator app was wiped from my phone",
+   "Need 2FA turned off because the verification code never comes",
+   "Lost the second factor, how do I get in",
+   "Backup codes are gone and I cannot pass verification",
+   "My phone with the authenticator was stolen",
+   "Two step verification codes are invalid",
+   "Turn off two step verification for my user"
+  ],
+  "response": "Use one of your saved backup codes to sign in, then re-register the authenticator under Security settings. If you have no backup codes, the support team must verify your identity before two-factor can be reset."
+ },
+ {
+  "article_id": "KB004",
+  "title": "Find and download invoices",
+  "intent": "Billing",
+  "keywords": [
+   "invoice",
+   "receipt",
+   "billing history",
+   "download invoice"
+  ],
+  "approved": true,
+  "version": 5,
+  "owner": "Billing Support",
+  "last_reviewed": "2026-09-10",
+  "sample_questions": [
+   "Where can I find my invoice?",
+   "How do I download a receipt for last month?",
+   "I need a copy of our billing history",
+   "Where can I see my invoices",
+   "I need last quarter's invoice as a PDF",
+   "Send me the receipt for the payment",
+   "How do I get the billing history",
+   "Download invoice for accounting",
+   "Can I get a copy of our invoice for March",
+   "Can I get a receipt for our records",
+   "Where do I see past invoices",
+   "Pdf of the invoice for the finance team",
+   "I'd like the invoice for the quarter"
+  ],
+  "response": "Invoices are under Settings > Billing > Billing history. Select any month to download a PDF invoice or receipt. Only workspace owners and billing contacts can see this page."
+ },
+ {
+  "article_id": "KB005",
+  "title": "Update the payment method",
+  "intent": "Billing",
+  "keywords": [
+   "payment method",
+   "credit card",
+   "update card",
+   "expired card"
+  ],
+  "approved": true,
+  "version": 4,
+  "owner": "Billing Support",
+  "last_reviewed": "2026-08-30",
+  "sample_questions": [
+   "How do I change the credit card on my account?",
+   "Our card expired, how can we update it?",
+   "Can I pay with a different payment method?",
+   "How do I replace the credit card on file",
+   "Our card has expired, where do I add a new one",
+   "Change payment method please",
+   "Update the card used for billing",
+   "Which payment options can I use",
+   "I want to use a different card",
+   "Swap the payment card on our account",
+   "The card on file is outdated",
+   "Add a new credit card for future payments"
+  ],
+  "response": "Go to Settings > Billing > Payment method and choose 'Replace card'. The new card is used from the next billing date. Failed payments are retried automatically three times over seven days."
+ },
+ {
+  "article_id": "KB006",
+  "title": "Change or cancel a subscription",
+  "intent": "Billing",
+  "keywords": [
+   "cancel subscription",
+   "upgrade plan",
+   "downgrade",
+   "change plan"
+  ],
+  "approved": true,
+  "version": 7,
+  "owner": "Billing Support",
+  "last_reviewed": "2026-09-18",
+  "sample_questions": [
+   "How do I cancel my subscription?",
+   "I want to upgrade to the Business plan",
+   "Can we move down to a cheaper plan?",
+   "How can I cancel the subscription",
+   "We want to upgrade our plan",
+   "I would like to switch to a smaller plan",
+   "Stop our subscription at the end of the month",
+   "How do I change plans",
+   "Can I downgrade next billing cycle",
+   "End my plan",
+   "How to switch from Pro to Business",
+   "Move to a lower tier next cycle",
+   "When will the new plan start after I upgrade"
+  ],
+  "response": "Workspace owners can change or cancel a plan under Settings > Billing > Plan. Upgrades apply immediately and are prorated; downgrades and cancellations take effect at the end of the current billing period."
+ },
+ {
+  "article_id": "KB007",
+  "title": "Export fails or times out",
+  "intent": "Technical Error",
+  "keywords": [
+   "export",
+   "csv export",
+   "pdf export",
+   "times out"
+  ],
+  "approved": true,
+  "version": 5,
+  "owner": "Technical Support",
+  "last_reviewed": "2026-09-25",
+  "sample_questions": [
+   "My report export fails with an error",
+   "The CSV export keeps timing out",
+   "PDF export produces an empty file",
+   "Exporting a report gives an internal server error",
+   "The export button fails with an error message",
+   "CSV export never finishes and times out",
+   "PDF export creates a blank page",
+   "Exports are failing for the big project",
+   "Server error whenever I export the board",
+   "Report download throws a server error",
+   "Export to csv hangs forever",
+   "Exported pdf has no content"
+  ],
+  "response": "Exports of more than 50,000 rows can time out. Narrow the date range or filter by project and export again. Record the project name, time of the attempt and any error text; if the export still fails, a support engineer will investigate."
+ },
+ {
+  "article_id": "KB008",
+  "title": "Slow loading or poor performance",
+  "intent": "Technical Error",
+  "keywords": [
+   "slow",
+   "loading",
+   "lag",
+   "performance"
+  ],
+  "approved": true,
+  "version": 4,
+  "owner": "Technical Support",
+  "last_reviewed": "2026-08-14",
+  "sample_questions": [
+   "TaskNest is very slow today",
+   "Boards take forever to load",
+   "The app lags when I open a large project",
+   "The app is very slow",
+   "Pages are loading slowly since yesterday",
+   "Everything lags when I open big boards",
+   "Performance has gotten much worse for me",
+   "Loading screen spins for minutes",
+   "TaskNest feels sluggish on my laptop",
+   "Very laggy this afternoon",
+   "A huge project takes ages to open",
+   "Scrolling is choppy on big lists"
+  ],
+  "response": "Clear the browser cache, disable extensions and try a supported browser. Very large boards load faster with the 'Compact view' option. If slowness is limited to one workspace, send the workspace name and a time so that engineers can check it."
+ },
+ {
+  "article_id": "KB009",
+  "title": "Calendar and Slack integration problems",
+  "intent": "Technical Error",
+  "keywords": [
+   "sync",
+   "integration",
+   "calendar",
+   "slack"
+  ],
+  "approved": true,
+  "version": 6,
+  "owner": "Technical Support",
+  "last_reviewed": "2026-09-05",
+  "sample_questions": [
+   "Google Calendar events are not syncing",
+   "The Slack integration stopped posting updates",
+   "My calendar sync shows the wrong dates",
+   "Calendar sync stopped working",
+   "Slack notifications are no longer posted",
+   "The integration with Google Calendar lost connection",
+   "Synced events show the wrong day",
+   "Integration keeps disconnecting every few days",
+   "Our Slack channel gets no updates from TaskNest",
+   "Slack messages from TaskNest stopped arriving",
+   "The calendar integration shows events a day late",
+   "Two-way sync with Outlook calendar broke"
+  ],
+  "response": "Disconnect and reconnect the integration under Settings > Integrations, then wait up to ten minutes for the first sync. Make sure the connecting user still has access to the calendar or Slack channel."
+ },
+ {
+  "article_id": "KB010",
+  "title": "Plans and what they include",
+  "intent": "General Information",
+  "keywords": [
+   "basic plan",
+   "pro plan",
+   "business plan",
+   "included"
+  ],
+  "approved": true,
+  "version": 8,
+  "owner": "Product Support",
+  "last_reviewed": "2026-10-01",
+  "sample_questions": [
+   "What is included in the Basic plan?",
+   "What is the difference between Pro and Business?",
+   "Which plan has unlimited projects?",
+   "What does the Pro plan include",
+   "How many projects are in the Basic plan",
+   "Difference between the plans",
+   "Is audit export part of Business",
+   "What are the limits on the free plan",
+   "Do I get unlimited members with Business",
+   "Is the Business plan limited by members",
+   "What does Pro offer compared to Basic",
+   "Which tier has SSO",
+   "What is the monthly price of the Business plan",
+   "How much does Basic cost per user",
+   "Cost of the Pro tier",
+   "Do you charge per member on Pro"
+  ],
+  "response": "Basic includes 5 projects and 3 members. Pro adds unlimited projects, timelines and 20 members. Business adds single sign-on, audit exports, priority support and unlimited members. See the plans page for current limits."
+ },
+ {
+  "article_id": "KB011",
+  "title": "Supported browsers and mobile apps",
+  "intent": "General Information",
+  "keywords": [
+   "browser",
+   "mobile app",
+   "ios",
+   "android"
+  ],
+  "approved": true,
+  "version": 4,
+  "owner": "Product Support",
+  "last_reviewed": "2026-07-30",
+  "sample_questions": [
+   "Which browsers does TaskNest support?",
+   "Is there an Android app?",
+   "Can I use TaskNest on my iPhone?",
+   "Which web browsers are supported",
+   "Do you have an iPhone app",
+   "Is TaskNest available for Android",
+   "Can I run it in Firefox",
+   "Are there mobile apps",
+   "What operating systems does the app support",
+   "Does it work on tablets",
+   "Supported operating systems for the app",
+   "Is there a desktop client"
+  ],
+  "response": "TaskNest supports the current and previous versions of Chrome, Edge, Firefox and Safari. Mobile apps are available for iOS 16+ and Android 11+ from the official app stores."
+ },
+ {
+  "article_id": "KB012",
+  "title": "Import tasks from other tools",
+  "intent": "General Information",
+  "keywords": [
+   "import",
+   "csv import",
+   "trello",
+   "asana"
+  ],
+  "approved": true,
+  "version": 5,
+  "owner": "Product Support",
+  "last_reviewed": "2026-09-12",
+  "sample_questions": [
+   "Can I import my tasks from Trello?",
+   "How do I bring a CSV file of tasks into TaskNest?",
+   "Is there an Asana importer?",
+   "Can I move my Trello board into TaskNest",
+   "How to import tasks from a CSV file",
+   "Do you support importing from Asana",
+   "What is the largest import allowed",
+   "Bring existing tasks from a spreadsheet",
+   "Migrating from another tool, is there an importer",
+   "Can I upload tasks from Excel",
+   "Moving from Jira to TaskNest, is that possible",
+   "How do I load a backlog from another system"
+  ],
+  "response": "Use Settings > Import. Trello and Asana boards import directly with their export files, and any spreadsheet can be imported as CSV using the downloadable template. Imports of up to 10,000 tasks are supported."
+ },
+ {
+  "article_id": "KB013",
+  "title": "Submit a feature request",
+  "intent": "Feature Request",
+  "keywords": [
+   "feature request",
+   "roadmap",
+   "new feature",
+   "suggest"
+  ],
+  "approved": true,
+  "version": 4,
+  "owner": "Product Feedback",
+  "last_reviewed": "2026-08-05",
+  "sample_questions": [
+   "Can you add dark mode?",
+   "I would like to suggest a new feature",
+   "Is this on your roadmap?",
+   "Please add a dark theme",
+   "I would like to suggest a calendar view with weeks",
+   "Could you add a feature for task dependencies",
+   "Feature request: templates for recurring projects",
+   "Is a native Zoom integration coming",
+   "It would help to have bulk actions on cards",
+   "New feature idea: custom statuses with colours",
+   "Do you plan to add an offline mode",
+   "Suggestion: reminders by SMS",
+   "Could the sidebar be made smaller",
+   "Would be nice to have colours for custom fields",
+   "Request: reminder emails for overdue tasks",
+   "Can you support time estimates in hours and minutes",
+   "Please add a home screen widget",
+   "Add the ability to pin projects",
+   "I wish tasks could be linked to documents",
+   "Any chance of a calendar sync for subtasks being added",
+   "We need a read-only share link feature, please consider it",
+   "I wish the board had a compact layout",
+   "Would love a different theme option",
+   "Wish there were templates for sprint planning"
+  ],
+  "response": "Thank you for the suggestion. It has been logged with the product team, who review all requests every month. Requests can also be voted on in the public feedback portal. We cannot promise a delivery date."
+ },
+ {
+  "article_id": "KB014",
+  "title": "Service status and outages",
+  "intent": "Technical Error",
+  "keywords": [
+   "outage",
+   "status page",
+   "service down",
+   "unavailable"
+  ],
+  "approved": true,
+  "version": 5,
+  "owner": "Incident Response",
+  "last_reviewed": "2026-09-28",
+  "sample_questions": [
+   "Is TaskNest down right now?",
+   "Where can I see service status?",
+   "The service is unavailable for everyone",
+   "The whole service is down for all users",
+   "Outage: nobody in our company can open TaskNest",
+   "Application is not reachable for any of our employees",
+   "Site is down for every team, please escalate",
+   "Complete service unavailable since this morning",
+   "All our users see a gateway error",
+   "No one in the organisation can use the product",
+   "Everything is down, entire company is blocked",
+   "TaskNest is not loading for any of our staff",
+   "Complete downtime affecting our entire organisation",
+   "Everyone gets a 503 error",
+   "The platform is unreachable for all our teams"
+  ],
+  "response": "Live service status is on the public status page. Suspected outages are handled as critical incidents and a specialist is assigned immediately."
+ },
+ {
+  "article_id": "KB015",
+  "title": "Team members, roles and permissions",
+  "intent": "General Information",
+  "keywords": [
+   "invite",
+   "team member",
+   "permissions",
+   "roles"
+  ],
+  "approved": true,
+  "version": 5,
+  "owner": "Product Support",
+  "last_reviewed": "2026-09-09",
+  "sample_questions": [
+   "How do I invite a colleague?",
+   "What permissions does a member have?",
+   "Can I make someone an admin?",
+   "How do I add a teammate",
+   "What is the difference between admin and member",
+   "Can guests see all projects",
+   "Who can invite people to a workspace",
+   "How do roles work",
+   "Give a coworker more permissions",
+   "How do I give someone admin rights",
+   "Who can remove members",
+   "Can a member see all projects"
+  ],
+  "response": "Owners and admins can invite people under Settings > Members. Roles are Owner, Admin, Member and Guest; guests see only the projects they are added to."
+ },
+ {
+  "article_id": "KB016",
+  "title": "Refunds and billing disputes",
+  "intent": "Billing",
+  "keywords": [
+   "refund",
+   "charged twice",
+   "double charge",
+   "overcharged"
+  ],
+  "approved": true,
+  "version": 4,
+  "owner": "Billing Support",
+  "last_reviewed": "2026-09-20",
+  "sample_questions": [
+   "I was charged twice this month",
+   "Can I get a refund?",
+   "We were overcharged on the last invoice",
+   "I see two charges for the same invoice",
+   "Please refund the last payment",
+   "I was billed twice this month",
+   "We got overcharged, please check",
+   "I want my money back for the annual plan",
+   "There is a duplicate charge on my card",
+   "An extra payment was taken from our card",
+   "Billed more than agreed in the quote",
+   "Ask for a refund since we did not use the product",
+   "The amount charged is twice what I expected"
+  ],
+  "response": "Refund and dispute requests are reviewed by the billing team within five working days. Please share the invoice number and the date of the charge. Refunds are returned to the original payment method."
+ },
+ {
+  "article_id": "KB017",
+  "title": "Single sign-on setup (retired)",
+  "intent": "Login / Access",
+  "keywords": [
+   "sso",
+   "saml",
+   "single sign-on",
+   "identity provider"
+  ],
+  "approved": false,
+  "version": 1,
+  "owner": "Access Support",
+  "last_reviewed": "2025-11-11",
+  "sample_questions": [
+   "How do I set up SSO?",
+   "Configure SAML with our identity provider"
+  ],
+  "response": "Legacy SSO instructions - retired and under review. Do not send to customers."
+ }
+]

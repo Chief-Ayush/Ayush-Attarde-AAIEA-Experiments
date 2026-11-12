@@ -1,0 +1,4 @@
+[
+ {"article_id":"KB001","title":"Reset a forgotten password","intent":"Login / Access","keywords":["forgot password","reset password","password reset","reset link"],"approved":true,"version":3,"owner":"Access Support","last_reviewed":"2026-09-02",
+  "sample_questions":["How do I reset my password?","I forgot my password and cannot sign in","The password reset email never arrived"],
+  "response":"

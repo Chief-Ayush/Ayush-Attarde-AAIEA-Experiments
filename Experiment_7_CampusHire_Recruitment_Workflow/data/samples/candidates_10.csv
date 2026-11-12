@@ -1,0 +1,11 @@
+candidate_id,candidate_name,email,skills_score,experience_score,assessment_score,application_role,college,cover_note
+C101,Aarav Shah,aarav@example.com,85,70,90,Junior Software Developer,Riverside University,
+C102,Diya Mehta,diya@example.com,70,80,75,Junior Software Developer,Lakeview College of Engineering,
+C103,Kabir Patil,kabir@example.com,55,50,60,Junior Software Developer,Hillcrest Institute,
+C104,Ira Desai,ira@example.com,90,85,95,Junior Software Developer,Eastgate College,
+C105,Neel Joshi,neel@example.com,40,35,45,Junior Software Developer,Northfield Institute of Technology,
+C143,Samar Sharma,samar.sharma@example.com,68,75,82,Data Analyst,Riverside University,
+C131,Tara Chawla,tara.chawla@example.com,39,61,64,Junior Software Developer,Riverside University,
+C168,Parth Reddy,parth.reddy@example.com,79,79,73,Data Analyst,Greenfield Polytechnic,
+C132,Diya Chawla,diya.chawla@example.com,100,76,81,Data Analyst,Riverside University,
+C145,Dhruv Iyer,dhruv.iyer@example.com,53,61,70,Junior Software Developer,Northfield Institute of Technology,

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+venv/
+.venv/
+
+# Runtime state - regenerated on first run / by the evaluation (see README)
+tickets.db
+*.db
+audit_log.csv
+notification_log.csv
+rejected_queries.csv
+data/uploads/
+storage/classifier_model.pkl
+storage/exports/
+storage/mcp_logs/
+storage/reports/run_*/

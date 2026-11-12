@@ -1,0 +1,105 @@
+candidate_id,name,role,skills,experience,assessment,score,rule_version,proposed_status,reviewer_action,final_status,message_state,criterion_explanation
+C101,Aarav Shah,Junior Software Developer,85.0,70.0,90.0,82.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 34/40; Relevant experience 21/30; Technical assessment 27/30
+C102,Diya Mehta,Junior Software Developer,70.0,80.0,75.0,74.5,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 28/40; Relevant experience 24/30; Technical assessment 22.5/30
+C103,Kabir Patil,Junior Software Developer,55.0,50.0,60.0,55.0,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22/40; Relevant experience 15/30; Technical assessment 18/30
+C104,Ira Desai,Junior Software Developer,90.0,85.0,95.0,90.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 36/40; Relevant experience 25.5/30; Technical assessment 28.5/30
+C105,Neel Joshi,Junior Software Developer,40.0,35.0,45.0,40.0,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 16/40; Relevant experience 10.5/30; Technical assessment 13.5/30
+C106,Myra Sethi,Junior Software Developer,39.0,45.0,45.0,42.6,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 15.6/40; Relevant experience 13.5/30; Technical assessment 13.5/30
+C107,Dhruv Menon,Junior Software Developer,54.0,56.0,56.0,55.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 21.6/40; Relevant experience 16.8/30; Technical assessment 16.8/30
+C108,Ira Verma,Data Analyst,37.0,53.0,50.0,46.85,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 11.1/30; Relevant experience 13.25/25; Technical assessment 22.5/45
+C109,Tanvi Menon,Junior Software Developer,40.0,50.0,58.0,48.4,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 16/40; Relevant experience 15/30; Technical assessment 17.4/30
+C110,Nisha Patil,Junior Software Developer,55.0,70.0,49.0,57.7,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22/40; Relevant experience 21/30; Technical assessment 14.7/30
+C111,Neel Desai,Data Analyst,80.0,44.0,86.0,73.7,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24/30; Relevant experience 11/25; Technical assessment 38.7/45
+C112,Myra Pillai,Data Analyst,91.0,81.0,81.0,84.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 27.3/30; Relevant experience 20.25/25; Technical assessment 36.45/45
+C113,Manav Gupta,Junior Software Developer,36.0,34.0,61.0,42.9,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 14.4/40; Relevant experience 10.2/30; Technical assessment 18.3/30
+C114,Tanvi Patil,Junior Software Developer,83.0,70.0,72.0,75.8,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 33.2/40; Relevant experience 21/30; Technical assessment 21.6/30
+C115,Sneha Jain,Data Analyst,56.0,82.0,57.0,62.95,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 16.8/30; Relevant experience 20.5/25; Technical assessment 25.65/45
+C116,Karan Bhatt,Junior Software Developer,76.0,59.0,84.0,73.3,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 30.4/40; Relevant experience 17.7/30; Technical assessment 25.2/30
+C117,Saanvi Pillai,Junior Software Developer,55.0,64.0,70.0,62.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22/40; Relevant experience 19.2/30; Technical assessment 21/30
+C118,Nisha Bose,Data Analyst,82.0,62.0,82.0,77.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 24.6/30; Relevant experience 15.5/25; Technical assessment 36.9/45
+C119,Pooja Joshi,Data Analyst,80.0,78.0,64.0,72.3,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24/30; Relevant experience 19.5/25; Technical assessment 28.8/45
+C120,Parth Menon,Junior Software Developer,100.0,51.0,90.0,82.3,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 40/40; Relevant experience 15.3/30; Technical assessment 27/30
+C121,Rohan Sharma,Junior Software Developer,72.0,98.0,70.0,79.2,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 28.8/40; Relevant experience 29.4/30; Technical assessment 21/30
+C122,Kiara Reddy,Data Analyst,83.0,72.0,61.0,70.35,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24.9/30; Relevant experience 18/25; Technical assessment 27.45/45
+C123,Reyansh Bhatt,Junior Software Developer,81.0,87.0,67.0,78.6,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 32.4/40; Relevant experience 26.1/30; Technical assessment 20.1/30
+C124,Ira Rao,Junior Software Developer,68.0,46.0,60.0,59.0,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 27.2/40; Relevant experience 13.8/30; Technical assessment 18/30
+C125,Zoya Mehta,Data Analyst,68.0,77.0,70.0,71.15,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 20.4/30; Relevant experience 19.25/25; Technical assessment 31.5/45
+C126,Arnav Desai,Data Analyst,55.0,53.0,41.0,48.2,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 16.5/30; Relevant experience 13.25/25; Technical assessment 18.45/45
+C127,Meher Verma,Junior Software Developer,52.0,69.0,61.0,59.8,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 20.8/40; Relevant experience 20.7/30; Technical assessment 18.3/30
+C128,Yash Joshi,Junior Software Developer,62.0,71.0,57.0,63.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24.8/40; Relevant experience 21.3/30; Technical assessment 17.1/30
+C129,Ritika Rao,Data Analyst,70.0,59.0,67.0,65.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 21/30; Relevant experience 14.75/25; Technical assessment 30.15/45
+C130,Vihaan Khan,Junior Software Developer,61.0,43.0,55.0,53.8,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24.4/40; Relevant experience 12.9/30; Technical assessment 16.5/30
+C131,Tara Chawla,Junior Software Developer,39.0,61.0,64.0,53.1,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 15.6/40; Relevant experience 18.3/30; Technical assessment 19.2/30
+C132,Diya Chawla,Data Analyst,100.0,76.0,81.0,85.45,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 30/30; Relevant experience 19/25; Technical assessment 36.45/45
+C133,Meher Nair,Data Analyst,47.0,56.0,35.0,43.85,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 14.1/30; Relevant experience 14/25; Technical assessment 15.75/45
+C134,Riya Jain,Junior Software Developer,35.0,34.0,47.0,38.3,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 14/40; Relevant experience 10.2/30; Technical assessment 14.1/30
+C135,Rohan Iyer,Junior Software Developer,49.0,26.0,55.0,43.9,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 19.6/40; Relevant experience 7.8/30; Technical assessment 16.5/30
+C137,Aditya Menon,Junior Software Developer,56.0,64.0,69.0,62.3,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22.4/40; Relevant experience 19.2/30; Technical assessment 20.7/30
+C138,Dhruv Gupta,Junior Software Developer,4.0,41.0,27.0,22.0,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 1.6/40; Relevant experience 12.3/30; Technical assessment 8.1/30
+C139,Aditya Jain,Data Analyst,61.0,68.0,55.0,60.05,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 18.3/30; Relevant experience 17/25; Technical assessment 24.75/45
+C140,Yash Bhatt,Data Analyst,50.0,60.0,58.0,56.1,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 15/30; Relevant experience 15/25; Technical assessment 26.1/45
+C141,Zoya Rao,Junior Software Developer,45.0,52.0,45.0,47.1,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 18/40; Relevant experience 15.6/30; Technical assessment 13.5/30
+C142,Arnav Nair,Junior Software Developer,88.0,82.0,57.0,76.9,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 35.2/40; Relevant experience 24.6/30; Technical assessment 17.1/30
+C143,Samar Sharma,Data Analyst,68.0,75.0,82.0,76.05,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 20.4/30; Relevant experience 18.75/25; Technical assessment 36.9/45
+C144,Diya Shah,Junior Software Developer,48.0,35.0,68.0,50.1,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 19.2/40; Relevant experience 10.5/30; Technical assessment 20.4/30
+C145,Dhruv Iyer,Junior Software Developer,53.0,61.0,70.0,60.5,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 21.2/40; Relevant experience 18.3/30; Technical assessment 21/30
+C146,Nisha Naik,Data Analyst,61.0,76.0,84.0,75.1,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 18.3/30; Relevant experience 19/25; Technical assessment 37.8/45
+C147,Aditya Rao,Data Analyst,94.0,45.0,65.0,68.7,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 28.2/30; Relevant experience 11.25/25; Technical assessment 29.25/45
+C148,Parth Chawla,Junior Software Developer,38.0,49.0,64.0,49.1,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 15.2/40; Relevant experience 14.7/30; Technical assessment 19.2/30
+C149,Kiara Verma,Junior Software Developer,65.0,68.0,55.0,62.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 26/40; Relevant experience 20.4/30; Technical assessment 16.5/30
+C151,Vihaan Sethi,Junior Software Developer,50.0,59.0,67.0,57.8,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 20/40; Relevant experience 17.7/30; Technical assessment 20.1/30
+C152,Vihaan Chawla,Junior Software Developer,31.0,36.0,57.0,40.3,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 12.4/40; Relevant experience 10.8/30; Technical assessment 17.1/30
+C153,Dhruv Bhatt,Data Analyst,51.0,38.0,61.0,52.25,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 15.3/30; Relevant experience 9.5/25; Technical assessment 27.45/45
+C154,Samar Chawla,Data Analyst,49.0,29.0,65.0,51.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 14.7/30; Relevant experience 7.25/25; Technical assessment 29.25/45
+C155,Dhruv Rao,Junior Software Developer,56.0,49.0,66.0,56.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22.4/40; Relevant experience 14.7/30; Technical assessment 19.8/30
+C156,Manav Patil,Junior Software Developer,62.0,63.0,50.0,58.7,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24.8/40; Relevant experience 18.9/30; Technical assessment 15/30
+C157,Myra Bhatt,Data Analyst,31.0,37.0,37.0,35.2,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 9.3/30; Relevant experience 9.25/25; Technical assessment 16.65/45
+C158,Reyansh Rao,Junior Software Developer,62.0,58.0,69.0,62.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24.8/40; Relevant experience 17.4/30; Technical assessment 20.7/30
+C159,Rohan Nair,Junior Software Developer,54.0,37.0,65.0,52.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 21.6/40; Relevant experience 11.1/30; Technical assessment 19.5/30
+C160,Riya Kapoor,Data Analyst,57.0,67.0,50.0,56.35,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 17.1/30; Relevant experience 16.75/25; Technical assessment 22.5/45
+C161,Tanvi Rao,Data Analyst,76.0,77.0,72.0,74.45,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22.8/30; Relevant experience 19.25/25; Technical assessment 32.4/45
+C162,Karan Chawla,Junior Software Developer,96.0,100.0,87.0,94.5,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 38.4/40; Relevant experience 30/30; Technical assessment 26.1/30
+C163,Anaya Reddy,Junior Software Developer,100.0,100.0,91.0,97.3,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 40/40; Relevant experience 30/30; Technical assessment 27.3/30
+C164,Anika Sharma,Data Analyst,41.0,61.0,32.0,41.95,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 12.3/30; Relevant experience 15.25/25; Technical assessment 14.4/45
+C165,Pooja Mehta,Junior Software Developer,60.0,69.0,90.0,71.7,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 24/40; Relevant experience 20.7/30; Technical assessment 27/30
+C166,Pooja Shah,Junior Software Developer,75.0,70.0,62.0,69.6,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 30/40; Relevant experience 21/30; Technical assessment 18.6/30
+C167,Ishaan Desai,Data Analyst,53.0,100.0,60.0,67.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 15.9/30; Relevant experience 25/25; Technical assessment 27/45
+C168,Parth Reddy,Data Analyst,79.0,79.0,73.0,76.3,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 23.7/30; Relevant experience 19.75/25; Technical assessment 32.85/45
+C169,Arnav Reddy,Junior Software Developer,72.0,84.0,100.0,84.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 28.8/40; Relevant experience 25.2/30; Technical assessment 30/30
+C170,Sneha Chawla,Junior Software Developer,56.0,79.0,65.0,65.6,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 22.4/40; Relevant experience 23.7/30; Technical assessment 19.5/30
+C171,Kabir Shah,Data Analyst,79.0,71.0,53.0,65.3,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 23.7/30; Relevant experience 17.75/25; Technical assessment 23.85/45
+C172,Dhruv Chawla,Junior Software Developer,63.0,78.0,51.0,63.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 25.2/40; Relevant experience 23.4/30; Technical assessment 15.3/30
+C173,Ritika Sethi,Junior Software Developer,38.0,61.0,45.0,47.0,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 15.2/40; Relevant experience 18.3/30; Technical assessment 13.5/30
+C174,Tara Kulkarni,Data Analyst,75.0,97.0,69.0,77.8,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 22.5/30; Relevant experience 24.25/25; Technical assessment 31.05/45
+C175,Aditya Mehta,Data Analyst,51.0,80.0,58.0,61.4,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 15.3/30; Relevant experience 20/25; Technical assessment 26.1/45
+C176,Ishaan Kapoor,Junior Software Developer,90.0,86.0,66.0,81.6,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 36/40; Relevant experience 25.8/30; Technical assessment 19.8/30
+C177,Karan Verma,Junior Software Developer,78.0,71.0,68.0,72.9,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 31.2/40; Relevant experience 21.3/30; Technical assessment 20.4/30
+C178,Kiara Nair,Data Analyst,47.0,58.0,92.0,70.0,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 14.1/30; Relevant experience 14.5/25; Technical assessment 41.4/45
+C179,Manav Kulkarni,Junior Software Developer,49.0,71.0,52.0,56.5,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 19.6/40; Relevant experience 21.3/30; Technical assessment 15.6/30
+C180,Aditya Nair,Junior Software Developer,58.0,68.0,56.0,60.4,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 23.2/40; Relevant experience 20.4/30; Technical assessment 16.8/30
+C181,Nisha Chawla,Data Analyst,91.0,100.0,94.0,94.6,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 27.3/30; Relevant experience 25/25; Technical assessment 42.3/45
+C211,Wasim Qureshi,Junior Software Developer,75.0,75.0,75.0,75.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 30/40; Relevant experience 22.5/30; Technical assessment 22.5/30
+C212,Xena Dsouza,Junior Software Developer,74.99,74.99,74.99,74.99,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 30/40; Relevant experience 22.5/30; Technical assessment 22.5/30
+C213,Yogesh Rane,Data Analyst,50.0,50.0,50.0,50.0,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 15/30; Relevant experience 12.5/25; Technical assessment 22.5/45
+C214,Zara Lobo,Data Analyst,49.99,49.99,49.99,49.99,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 15/30; Relevant experience 12.5/25; Technical assessment 22.5/45
+C215,Abhay Nambiar,Data Analyst,75.0,75.0,75.0,75.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 22.5/30; Relevant experience 18.75/25; Technical assessment 33.75/45
+C216,Bhavna Ghosh,Junior Software Developer,50.0,50.0,50.0,50.0,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 20/40; Relevant experience 15/30; Technical assessment 15/30
+C217,Chirag Mistry,Junior Software Developer,75.0,60.0,90.0,75.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 30/40; Relevant experience 18/30; Technical assessment 27/30
+C218,Devika Sen,Junior Software Developer,98.0,95.0,99.0,97.4,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 39.2/40; Relevant experience 28.5/30; Technical assessment 29.7/30
+C219,Eshan Pandey,Data Analyst,96.0,92.0,97.0,95.45,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,SENT,Skills 28.8/30; Relevant experience 23/25; Technical assessment 43.65/45
+C220,Farah Ali,Junior Software Developer,6.0,10.0,8.0,7.8,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 2.4/40; Relevant experience 3/30; Technical assessment 2.4/30
+C221,Girish Menon,Data Analyst,12.0,5.0,9.0,8.9,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,SENT,Skills 3.6/30; Relevant experience 1.25/25; Technical assessment 4.05/45
+C222,Harini Iyengar,Junior Software Developer,61.0,55.0,64.0,60.1,1.0,MANUAL_REVIEW,HOLD,ON_HOLD,NOT_SENT,Skills 24.4/40; Relevant experience 16.5/30; Technical assessment 19.2/30
+C223,Harini Iyengar B,Data Analyst,64.0,56.0,64.0,62.0,1.0,MANUAL_REVIEW,HOLD,ON_HOLD,NONE,Skills 19.2/30; Relevant experience 14/25; Technical assessment 28.8/45
+C224,Harini Iyengar C,Junior Software Developer,67.0,57.0,64.0,63.1,1.0,MANUAL_REVIEW,HOLD,ON_HOLD,NONE,Skills 26.8/40; Relevant experience 17.1/30; Technical assessment 19.2/30
+C225,Harini Iyengar D,Data Analyst,70.0,58.0,64.0,64.3,1.0,MANUAL_REVIEW,HOLD,ON_HOLD,NONE,Skills 21/30; Relevant experience 14.5/25; Technical assessment 28.8/45
+C226,Harini Iyengar E,Junior Software Developer,73.0,59.0,64.0,66.1,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,NONE,Skills 29.2/40; Relevant experience 17.7/30; Technical assessment 19.2/30
+C227,Imran Sheikh,Data Analyst,68.0,66.0,71.0,68.85,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 20.4/30; Relevant experience 16.5/25; Technical assessment 31.95/45
+C228,"=HYPERLINK(""http://example.invalid"",""click"")",Junior Software Developer,64.0,60.0,62.0,62.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 25.6/40; Relevant experience 18/30; Technical assessment 18.6/30
+C229,Jaya Prakash,Junior Software Developer,77.0,70.0,75.0,74.3,1.0,MANUAL_REVIEW,REQUEST_INFO,AWAITING_INFORMATION,SENT,Skills 30.8/40; Relevant experience 21/30; Technical assessment 22.5/30
+C230,Jayant Prakash,Junior Software Developer,52.0,48.0,55.0,51.7,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 20.8/40; Relevant experience 14.4/30; Technical assessment 16.5/30
+C233,Madhav Rastogi,Data Analyst,78.0,70.0,74.0,74.2,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 23.4/30; Relevant experience 17.5/25; Technical assessment 33.3/45
+C234,Naina Kohli,Junior Software Developer,66.0,64.0,69.0,66.3,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,SENT,Skills 26.4/40; Relevant experience 19.2/30; Technical assessment 20.7/30
+C235,Ojas Phadke,Junior Software Developer,90.0,82.0,88.0,87.0,1.0,SHORTLIST_REVIEW,APPROVE,SHORTLIST_REVIEW,FAILED,Skills 36/40; Relevant experience 24.6/30; Technical assessment 26.4/30
+C236,Preeti Salunkhe,Data Analyst,66.0,60.0,63.0,63.15,1.0,MANUAL_REVIEW,APPROVE,MANUAL_REVIEW,FAILED,Skills 19.8/30; Relevant experience 15/25; Technical assessment 28.35/45
+C237,Qadir Mohammed,Junior Software Developer,30.0,35.0,28.0,30.9,1.0,NOT_SHORTLISTED_REVIEW,APPROVE,NOT_SHORTLISTED_REVIEW,FAILED,Skills 12/40; Relevant experience 10.5/30; Technical assessment 8.4/30

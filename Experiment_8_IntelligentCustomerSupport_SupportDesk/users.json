@@ -1,0 +1,10 @@
+{
+ "riya.agent": {"name": "Riya Menon", "role": "agent", "team": "Billing Support"},
+ "dev.agent": {"name": "Dev Kulkarni", "role": "agent", "team": "Technical Support"},
+ "isha.agent": {"name": "Isha Verma", "role": "agent", "team": "Access Support"},
+ "karan.agent": {"name": "Karan Shah", "role": "agent", "team": "Product Feedback"},
+ "tara.agent": {"name": "Tara Nair", "role": "agent", "team": "Tier 1 Support"},
+ "sana.lead": {"name": "Sana Qureshi", "role": "lead", "team": "Incident Response"},
+ "arjun.admin": {"name": "Arjun Rao", "role": "admin", "team": "Tier 1 Support"},
+ "meera.viewer": {"name": "Meera Iyer", "role": "viewer", "team": ""}
+}

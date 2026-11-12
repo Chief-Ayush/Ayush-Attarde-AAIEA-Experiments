@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+storage/
+data/uploads/
+.pytest_cache/
+
+# Files created by workflow runs (regenerate with: python -m campushire.cli run --file candidates.csv)
+audit_log.csv
+rejected_records.csv
+*.db

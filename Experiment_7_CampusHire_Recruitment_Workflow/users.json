@@ -1,0 +1,5 @@
+{
+  "priya.reviewer": {"name": "Priya Nair", "role": "hr_reviewer"},
+  "arjun.admin": {"name": "Arjun Rao", "role": "admin"},
+  "meera.viewer": {"name": "Meera Iyer", "role": "viewer"}
+}

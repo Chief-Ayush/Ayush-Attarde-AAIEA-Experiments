@@ -1,0 +1,7 @@
+kaggle
+pypdf
+python-docx
+sentence-transformers
+faiss-cpu
+numpy
+pandas

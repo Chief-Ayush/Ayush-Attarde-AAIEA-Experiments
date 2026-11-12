@@ -1,0 +1,9 @@
+mcp>=1.20,<2
+langgraph>=1.0
+streamlit>=1.50
+pandas
+numpy
+altair>=5
+jsonschema
+anyio
+pytest

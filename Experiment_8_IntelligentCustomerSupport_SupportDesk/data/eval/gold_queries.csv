@@ -1,0 +1,148 @@
+query_id,customer_id,query_text,created_at,gold_intent,gold_complexity,gold_priority,gold_article,gold_route
+G001,C9001,"I forgot my password, how do I get back in?",2026-10-22T09:01:00,Login / Access,Low,P3,KB001,AUTO
+G002,C9002,Password reset email has not shown up in my inbox.,2026-10-22T09:02:00,Login / Access,Low,P3,KB001,AUTO
+G003,C9003,Can you tell me how to change my password if I can't remember the old one?,2026-10-22T09:03:00,Login / Access,Low,P3,KB001,AUTO
+G004,C9004,The reset link you sent says it has expired.,2026-10-22T09:04:00,Login / Access,Low,P3,KB001,AUTO
+G005,FLAKY3,Need to reset my password please,2026-10-22T09:05:00,Login / Access,Low,P3,KB001,AUTO
+G006,C9006,Where do I click if I have forgotten my login password?,2026-10-22T09:06:00,Login / Access,Low,P3,KB001,AUTO
+G007,BOUNCE7,My account got locked after I typed the wrong password a few times.,2026-10-22T09:07:00,Login / Access,Low,P3,KB002,AUTO
+G008,C9008,How long will I stay locked out after too many attempts?,2026-10-22T09:08:00,Login / Access,Low,P3,KB002,AUTO
+G009,C9009,"It says my account is locked, when will it unlock?",2026-10-22T09:09:00,Login / Access,Low,P3,KB002,AUTO
+G010,C9010,I tried signing in several times and now it blocks me for a while.,2026-10-22T09:10:00,Login / Access,Low,P3,KB002,AUTO
+G011,C9011,"Locked out of my account since this morning, how do I unlock it?",2026-10-22T09:11:00,Login / Access,Low,P3,KB002,AUTO
+G012,C9012,I replaced my phone and the authenticator codes no longer work.,2026-10-22T09:12:00,Login / Access,Medium,P2,KB003,REV
+G013,C9013,Lost my phone with the two-factor app and I have no backup codes.,2026-10-22T09:13:00,Login / Access,Medium,P2,KB003,REV
+G014,C9014,"Please disable 2FA on my account, I cannot receive verification codes.",2026-10-22T09:14:00,Login / Access,Medium,P2,KB003,REV
+G015,C9015,The verification code from my authenticator is always rejected.,2026-10-22T09:15:00,Login / Access,Medium,P2,KB003,REV
+G016,C9016,Our admin is locked out and nobody in the finance team can open the workspace before tomorrow's close.,2026-10-22T09:16:00,Login / Access,Medium,P2,KB002,REV
+G017,C9017,I cannot log in to the workspace and my deadline is today.,2026-10-22T09:17:00,Login / Access,Medium,P2,,REV
+G018,C9018,Sign in keeps looping back to the login page after I enter my password.,2026-10-22T09:18:00,Login / Access,Medium,P2,,REV
+G019,C9019,New employee invited but the invitation link says invalid.,2026-10-22T09:19:00,Login / Access,Medium,P3,,REV
+G020,C9020,I changed my email address and now I cannot sign in with either one.,2026-10-22T09:20:00,Login / Access,Medium,P2,,REV
+G021,C9021,How do I enable SSO with Okta for our company?,2026-10-22T09:21:00,Login / Access,Medium,P3,,REV
+G022,C9022,We need SAML single sign-on configured for the Business plan.,2026-10-22T09:22:00,Login / Access,Medium,P3,,REV
+G023,C9023,Can you share the steps to connect our identity provider?,2026-10-22T09:23:00,Login / Access,Medium,P3,,REV
+G024,C9024,Where do I find my invoice for September?,2026-10-22T09:24:00,Billing,Low,P3,KB004,AUTO
+G025,C9025,Can you send me a receipt for last month's payment?,2026-10-22T09:25:00,Billing,Low,P3,KB004,AUTO
+G026,C9026,How can I download all invoices for the year?,2026-10-22T09:26:00,Billing,Low,P3,KB004,AUTO
+G027,C9027,I need the billing history to give to our accountant.,2026-10-22T09:27:00,Billing,Low,P3,KB004,AUTO
+G028,FLAKY2,Is there a way to get a PDF invoice with our company details?,2026-10-22T09:28:00,Billing,Low,P3,KB004,AUTO
+G029,C9029,"Our company card has expired, where do I put in the new one?",2026-10-22T09:29:00,Billing,Low,P3,KB005,AUTO
+G030,C9030,How do I change the credit card used for our subscription?,2026-10-22T09:30:00,Billing,Low,P3,KB005,AUTO
+G031,C9031,Can we pay by a different card next month?,2026-10-22T09:31:00,Billing,Low,P3,KB005,AUTO
+G032,C9032,I want to update the payment method on file.,2026-10-22T09:32:00,Billing,Low,P3,KB005,AUTO
+G033,C9033,How do I cancel my subscription?,2026-10-22T09:33:00,Billing,Low,P3,KB006,AUTO
+G034,C9034,"We would like to upgrade from Pro to Business, what are the steps?",2026-10-22T09:34:00,Billing,Low,P3,KB006,AUTO
+G035,C9035,Can I downgrade to Basic at the end of this billing period?,2026-10-22T09:35:00,Billing,Low,P3,KB006,AUTO
+G036,C9036,Please tell me how to switch our plan to annual billing.,2026-10-22T09:36:00,Billing,Low,P3,,REV
+G037,C9037,When does the cancellation take effect if I stop the plan today?,2026-10-22T09:37:00,Billing,Low,P3,KB006,AUTO
+G038,C9038,"I was charged twice for the same month, please fix it.",2026-10-22T09:38:00,Billing,Medium,P2,KB016,REV
+G039,C9039,There is a double charge on our card statement for invoice 4471.,2026-10-22T09:39:00,Billing,Medium,P2,KB016,REV
+G040,C9040,"I would like a refund for the annual plan, I bought it by mistake.",2026-10-22T09:40:00,Billing,Medium,P2,KB016,REV
+G041,C9041,We were overcharged compared with the quote we received.,2026-10-22T09:41:00,Billing,Medium,P2,KB016,REV
+G042,C9042,Refund request: we cancelled within a day of renewal.,2026-10-22T09:42:00,Billing,Medium,P2,KB016,REV
+G043,C9043,The invoice amount is higher than what the pricing page shows for 12 members.,2026-10-22T09:43:00,Billing,Medium,P2,,REV
+G044,C9044,Payment failed and our workspace is now read-only.,2026-10-22T09:44:00,Billing,Medium,P2,KB005,REV
+G045,C9045,Our payment was declined but the bank says no attempt reached them.,2026-10-22T09:45:00,Billing,Medium,P2,,REV
+G046,C9046,Can I get an invoice issued in euros instead of dollars?,2026-10-22T09:46:00,Billing,Medium,P3,,REV
+G047,C9047,We need a tax certificate on the invoices for our audit.,2026-10-22T09:47:00,Billing,Medium,P3,,REV
+G048,BOUNCE48,Why did my card get charged when I am on the free trial?,2026-10-22T09:48:00,Billing,Medium,P2,,REV
+G049,C9049,Invoice shows a plan we never subscribed to.,2026-10-22T09:49:00,Billing,Medium,P2,,REV
+G050,C9050,The report export returns an internal server error.,2026-10-22T09:50:00,Technical Error,Medium,P2,KB007,REV
+G051,FLAKY1,CSV export has been timing out on our biggest project.,2026-10-22T09:51:00,Technical Error,Medium,P3,KB007,REV
+G052,C9052,When I export to PDF the file is empty.,2026-10-22T09:52:00,Technical Error,Medium,P3,KB007,REV
+G053,C9053,Export of the quarterly board fails every time I press the button.,2026-10-22T09:53:00,Technical Error,Medium,P2,KB007,REV
+G054,C9054,TaskNest is extremely slow for me today.,2026-10-22T09:54:00,Technical Error,Medium,P3,KB008,REV
+G055,C9055,The boards take more than a minute to load.,2026-10-22T09:55:00,Technical Error,Medium,P3,KB008,REV
+G056,C9056,App lags a lot when scrolling through a big list.,2026-10-22T09:56:00,Technical Error,Medium,P3,KB008,REV
+G057,C9057,Google Calendar events are not syncing since Monday.,2026-10-22T09:57:00,Technical Error,Medium,P3,KB009,REV
+G058,C9058,The Slack integration stopped posting task updates to our channel.,2026-10-22T09:58:00,Technical Error,Medium,P3,KB009,REV
+G059,C9059,Calendar sync shows my meetings one day late.,2026-10-22T09:59:00,Technical Error,Medium,P3,KB009,REV
+G060,C9060,Integration with our calendar disconnected itself again.,2026-10-22T10:00:00,Technical Error,Medium,P3,KB009,REV
+G061,C9061,Attachments larger than 5 MB fail to upload.,2026-10-22T10:01:00,Technical Error,Medium,P3,,REV
+G062,C9062,I get a 500 error when I open the timeline view.,2026-10-22T10:02:00,Technical Error,Medium,P2,,REV
+G063,C9063,Comments I post are disappearing after I refresh the page.,2026-10-22T10:03:00,Technical Error,Medium,P3,,REV
+G064,C9064,Mobile app crashes as soon as I open a project.,2026-10-22T10:04:00,Technical Error,Medium,P3,,REV
+G065,C9065,Notifications email arrives hours after the task is assigned.,2026-10-22T10:05:00,Technical Error,Medium,P3,,REV
+G066,C9066,The API returns 429 even though we make fewer than 100 calls per minute.,2026-10-22T10:06:00,Technical Error,Medium,P3,,REV
+G067,C9067,Our automation rule fires twice for every new task.,2026-10-22T10:07:00,Technical Error,Medium,P3,,REV
+G068,C9068,Drag and drop on the board stopped working in Safari.,2026-10-22T10:08:00,Technical Error,Medium,P3,,REV
+G069,C9069,Search returns no results for tasks I created yesterday.,2026-10-22T10:09:00,Technical Error,Medium,P3,,REV
+G070,C9070,Time tracking entries show the wrong totals in the weekly report.,2026-10-22T10:10:00,Technical Error,Medium,P3,,REV
+G071,C9071,We cannot attach files from Google Drive anymore.,2026-10-22T10:11:00,Technical Error,Medium,P3,,REV
+G072,C9072,The application is down for all of our users.,2026-10-22T10:12:00,Technical Error,High,P1,KB014,URG
+G073,C9073,TaskNest is unavailable for everyone in our company right now.,2026-10-22T10:13:00,Technical Error,High,P1,KB014,URG
+G074,FLAKY3,Service outage: none of our 300 staff can open any project.,2026-10-22T10:14:00,Technical Error,High,P1,KB014,URG
+G075,C9075,"Whole site returns a blank page, it is down for every team we have.",2026-10-22T10:15:00,Technical Error,High,P1,KB014,URG
+G076,C9076,All users in our organisation get a gateway timeout since 9 am.,2026-10-22T10:16:00,Technical Error,High,P1,KB014,URG
+G077,C9077,"We suspect a data breach, a former employee is still reading our private projects.",2026-10-22T10:17:00,Technical Error,High,P1,,URG
+G078,C9078,Someone logged into our admin account from another country and exported everything.,2026-10-22T10:18:00,Technical Error,High,P1,,URG
+G079,C9079,"I think my account was hacked, there are tasks I never created.",2026-10-22T10:19:00,Technical Error,High,P1,,URG
+G080,C9080,Security incident: our API key was posted publicly by mistake.,2026-10-22T10:20:00,Technical Error,High,P1,,URG
+G081,C9081,We found an unknown admin user in our workspace member list.,2026-10-22T10:21:00,Technical Error,High,P1,,URG
+G082,C9082,Customer data from our project is visible to another company's account.,2026-10-22T10:22:00,Technical Error,High,P1,,URG
+G083,C9083,Phishing email pretending to be TaskNest asked our staff for passwords and some replied.,2026-10-22T10:23:00,Technical Error,High,P1,,URG
+G084,C9084,The status page is green but nobody here can reach the service at all.,2026-10-22T10:24:00,Technical Error,High,P1,KB014,URG
+G085,C9085,Everyone on my team gets 'service unavailable' when opening the app.,2026-10-22T10:25:00,Technical Error,High,P1,KB014,URG
+G086,C9086,Unauthorized transactions appeared and someone changed the billing owner of the workspace.,2026-10-22T10:26:00,Technical Error,High,P1,,URG
+G087,C9087,"Our whole department lost access an hour ago, is there an outage?",2026-10-22T10:27:00,Technical Error,High,P1,KB014,URG
+G088,C9088,Please add dark mode.,2026-10-22T10:28:00,Feature Request,Low,P4,KB013,FEED
+G089,BOUNCE89,It would be great to have a Gantt chart view.,2026-10-22T10:29:00,Feature Request,Low,P4,KB013,FEED
+G090,C9090,Feature request: recurring tasks with custom intervals.,2026-10-22T10:30:00,Feature Request,Low,P4,KB013,FEED
+G091,C9091,Can you build a way to duplicate a whole project including comments?,2026-10-22T10:31:00,Feature Request,Low,P4,KB013,FEED
+G092,C9092,I suggest adding keyboard shortcuts for moving cards.,2026-10-22T10:32:00,Feature Request,Low,P4,KB013,FEED
+G093,C9093,Is a time-zone aware due date on your roadmap?,2026-10-22T10:33:00,Feature Request,Low,P4,KB013,FEED
+G094,C9094,We would love a native Microsoft Teams integration.,2026-10-22T10:34:00,Feature Request,Low,P4,KB013,FEED
+G095,C9095,Would you consider letting guests comment without a seat?,2026-10-22T10:35:00,Feature Request,Low,P4,KB013,FEED
+G096,C9096,A new feature idea: let us colour-code custom fields.,2026-10-22T10:36:00,Feature Request,Low,P4,KB013,FEED
+G097,FLAKY2,Any plans to support offline mode on mobile?,2026-10-22T10:37:00,Feature Request,Low,P4,KB013,FEED
+G098,C9098,Wish list item: bulk edit for task assignees.,2026-10-22T10:38:00,Feature Request,Low,P4,KB013,FEED
+G099,C9099,Please make the sidebar collapsible.,2026-10-22T10:39:00,Feature Request,Low,P4,KB013,FEED
+G100,C9100,What is included in the Basic plan?,2026-10-22T10:40:00,General Information,Low,P4,KB010,AUTO
+G101,C9101,What is the difference between Pro and Business?,2026-10-22T10:41:00,General Information,Low,P4,KB010,AUTO
+G102,C9102,Does the Pro plan have unlimited projects?,2026-10-22T10:42:00,General Information,Low,P4,KB010,AUTO
+G103,C9103,How many members can I add on the Basic plan?,2026-10-22T10:43:00,General Information,Low,P4,KB010,AUTO
+G104,C9104,Which plan includes audit exports?,2026-10-22T10:44:00,General Information,Low,P4,KB010,AUTO
+G105,C9105,Which browsers can I use with TaskNest?,2026-10-22T10:45:00,General Information,Low,P4,KB011,AUTO
+G106,C9106,Is there an Android app?,2026-10-22T10:46:00,General Information,Low,P4,KB011,AUTO
+G107,C9107,Can I use TaskNest on an iPad?,2026-10-22T10:47:00,General Information,Low,P4,KB011,AUTO
+G108,C9108,Does it run on older versions of Safari?,2026-10-22T10:48:00,General Information,Low,P4,KB011,AUTO
+G109,C9109,Can I import my boards from Trello?,2026-10-22T10:49:00,General Information,Low,P4,KB012,AUTO
+G110,C9110,How do I bring in a spreadsheet of tasks?,2026-10-22T10:50:00,General Information,Low,P4,KB012,AUTO
+G111,C9111,Is there an importer for Asana projects?,2026-10-22T10:51:00,General Information,Low,P4,KB012,AUTO
+G112,C9112,How many tasks can I import at once?,2026-10-22T10:52:00,General Information,Low,P4,KB012,AUTO
+G113,C9113,How do I invite a colleague to my workspace?,2026-10-22T10:53:00,General Information,Low,P4,KB015,AUTO
+G114,C9114,What can a guest do compared to a member?,2026-10-22T10:54:00,General Information,Low,P4,KB015,AUTO
+G115,C9115,Can I make my manager an admin?,2026-10-22T10:55:00,General Information,Low,P4,KB015,AUTO
+G116,C9116,Who is allowed to delete projects in a workspace?,2026-10-22T10:56:00,General Information,Low,P4,KB015,AUTO
+G117,C9117,Do you offer a discount for non-profit organisations?,2026-10-22T10:57:00,General Information,Medium,P3,,REV
+G118,C9118,Where is our data stored and is it encrypted?,2026-10-22T10:58:00,General Information,Medium,P3,,REV
+G119,C9119,Do you sign a data processing agreement for GDPR?,2026-10-22T10:59:00,General Information,Medium,P3,,REV
+G120,FLAKY1,Can we get a security questionnaire answered for our procurement team?,2026-10-22T11:00:00,General Information,Medium,P3,,REV
+G121,C9121,What is your uptime guarantee for the Business plan?,2026-10-22T11:01:00,General Information,Medium,P3,,REV
+G122,C9122,Do you provide onboarding training for large teams?,2026-10-22T11:02:00,General Information,Medium,P3,,REV
+G123,C9123,How long do you keep deleted projects before they are removed?,2026-10-22T11:03:00,General Information,Medium,P3,,REV
+G124,C9124,Is there a student or education price?,2026-10-22T11:04:00,General Information,Medium,P3,,REV
+G125,C9125,Can you recommend a setup for a team of 40 across three time zones?,2026-10-22T11:05:00,General Information,Medium,P3,,REV
+G126,C9126,I followed your steps but the export still fails.,2026-10-22T11:06:00,Unresolved Issue,High,P2,KB007,REV
+G127,C9127,"The suggested password reset did not work, I still cannot sign in.",2026-10-22T11:07:00,Unresolved Issue,High,P2,KB001,REV
+G128,C9128,I reconnected the calendar like you said and it is still not syncing.,2026-10-22T11:08:00,Unresolved Issue,High,P2,KB009,REV
+G129,C9129,"Third time I am writing about this charge, nobody has fixed it.",2026-10-22T11:09:00,Unresolved Issue,High,P2,KB016,REV
+G130,BOUNCE130,"Your last answer did not solve my problem, boards are still slow.",2026-10-22T11:10:00,Unresolved Issue,High,P2,KB008,REV
+G131,C9131,"Cleared the cache as suggested, same error again.",2026-10-22T11:11:00,Unresolved Issue,High,P2,,REV
+G132,C9132,This is still unresolved after two replies from your team.,2026-10-22T11:12:00,Unresolved Issue,High,P2,,REV
+G133,C9133,I already tried everything in the help article and nothing changed.,2026-10-22T11:13:00,Unresolved Issue,High,P2,,REV
+G134,C9134,The steps you sent did not work for us.,2026-10-22T11:14:00,Unresolved Issue,High,P2,,REV
+G135,C9135,"Problem came back right after your fix, please look again.",2026-10-22T11:15:00,Unresolved Issue,High,P2,,REV
+G136,C9136,"Waiting four days now, the invoice error is still there.",2026-10-22T11:16:00,Unresolved Issue,High,P2,KB004,REV
+G137,C9137,Re-opening my case: the unlock did not take effect.,2026-10-22T11:17:00,Unresolved Issue,High,P2,KB002,REV
+G138,C9138,It is not working.,2026-10-22T11:18:00,Technical Error,Medium,P3,,INFO
+G139,C9139,Help,2026-10-22T11:19:00,Technical Error,Medium,P3,,INFO
+G140,C9140,Something is wrong with my account.,2026-10-22T11:20:00,Technical Error,Medium,P3,,INFO
+G141,C9141,This does not work for me,2026-10-22T11:21:00,Technical Error,Medium,P3,,INFO
+G142,C9142,Error,2026-10-22T11:22:00,Technical Error,Medium,P3,,INFO
+G143,FLAKY3,Can someone please check this?,2026-10-22T11:23:00,Technical Error,Medium,P3,,INFO
+G144,C9144,Why is it like this?,2026-10-22T11:24:00,Technical Error,Medium,P3,,INFO
+G145,C9145,Having an issue.,2026-10-22T11:25:00,Technical Error,Medium,P3,,INFO
+G146,C9146,Not able to do it,2026-10-22T11:26:00,Technical Error,Medium,P3,,INFO
+G147,C9147,Broken again??,2026-10-22T11:27:00,Technical Error,Medium,P3,,INFO

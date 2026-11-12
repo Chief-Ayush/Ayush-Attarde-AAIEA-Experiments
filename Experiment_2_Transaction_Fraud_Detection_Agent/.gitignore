@@ -1,0 +1,10 @@
+.env
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Large public dataset (Kaggle "Credit Card Fraud Detection", ~150 MB) - exceeds GitHub's 100 MB file limit.
+# Download it separately and place it at creditcard.csv/creditcard.csv if you want to use it.
+creditcard.csv
+creditcard.csv/

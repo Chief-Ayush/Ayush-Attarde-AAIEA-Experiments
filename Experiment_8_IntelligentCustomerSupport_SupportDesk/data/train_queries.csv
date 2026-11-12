@@ -1,0 +1,825 @@
+text,intent,complexity,priority,article,route
+My two-factor codes are not accepted.,Login / Access,Medium,P2,KB003,REV
+Quick question: Setting up Okta single sign-on for our staff. Any help appreciated.,Login / Access,Medium,P2,,REV
+"How do I replace the credit card on file. Regards, Sam",Billing,Low,P3,KB005,AUTO
+We discovered a leaked access token. Thank you!,Technical Error,High,P1,,URG
+"Hello team, login blocked because of failed attempts. Please advise.",Login / Access,Low,P3,KB002,AUTO
+"Hello, I need help. How do I replace the credit card on file.",Billing,Low,P3,KB005,AUTO
+"Hi support, this is the third time I report this issue. Please advise.",Unresolved Issue,High,P2,,REV
+"Hello team, two step verification codes are invalid. Regards, Sam",Login / Access,Medium,P2,KB003,REV
+None of us can enter the workspace and a client demo is today. Any help appreciated.,Login / Access,Medium,P2,,REV
+"Hello, I need help. What uptime do you commit to. Any help appreciated.",General Information,Medium,P3,,REV
+"Hello, I need help. Is there a pricing option for universities. Thank you!",General Information,Medium,P3,,REV
+"Hey, TaskNest feels sluggish on my laptop. Cheers",Technical Error,Medium,P3,KB008,REV
+"Hi support, I need assistance.",Technical Error,Medium,P3,,INFO
+"Urgent? Not sure, but what is the difference between admin and member.",General Information,Low,P4,KB015,AUTO
+"Hello, I need help. Our API token leaked on a public repository. Thanks.",Technical Error,High,P1,,URG
+"Hello team, my bank declined the payment but the card is fine. Thanks.",Billing,Medium,P2,,REV
+"Hi, two-way sync with Outlook calendar broke.",Technical Error,Medium,P3,KB009,REV
+"I want my money back for the annual plan. Regards, Sam",Billing,Medium,P2,KB016,REV
+Send us your security whitepaper for procurement. Please advise.,General Information,Medium,P3,,REV
+"Hello, I need help. Swap the payment card on our account.",Billing,Low,P3,KB005,AUTO
+Stop our subscription at the end of the month. Thank you!,Billing,Low,P3,KB006,AUTO
+"Dear support, unauthorised changes were made to our billing owner. Thank you!",Technical Error,High,P1,,URG
+Can I downgrade next billing cycle. Thanks.,Billing,Low,P3,KB006,AUTO
+Good morning. Update the card used for billing. Cheers,Billing,Low,P3,KB005,AUTO
+Good morning. I get an error 500 on the timeline page. Any help appreciated.,Technical Error,Medium,P3,,REV
+"Good morning. How do I change plans. Regards, Sam",Billing,Low,P3,KB006,AUTO
+"Hi support, the app is very slow.",Technical Error,Medium,P3,KB008,REV
+"Good morning. I would like to switch to a smaller plan. Regards, Sam",Billing,Low,P3,KB006,AUTO
+"Hey, download invoice for accounting.",Billing,Low,P3,KB004,AUTO
+"Hi, invitation link for the new colleague does not work. Any help appreciated.",Login / Access,Medium,P2,,REV
+"Moving from Jira to TaskNest, is that possible. Please advise.",General Information,Low,P4,KB012,AUTO
+"Hi, is the Business plan limited by members.",General Information,Low,P4,KB010,AUTO
+"Good morning. I do not remember my password. Regards, Sam",Login / Access,Low,P3,KB001,AUTO
+"Urgent? Not sure, but update the card used for billing.",Billing,Low,P3,KB005,AUTO
+"Quick question: Exports are failing for the big project. Regards, Sam",Technical Error,Medium,P2,KB007,REV
+The invoice shows the wrong company name. Any help appreciated.,Billing,Medium,P2,,REV
+"Hello, I need help. Ask for a refund since we did not use the product. Cheers",Billing,Medium,P2,KB016,REV
+"Hi, where do I see past invoices. Cheers",Billing,Low,P3,KB004,AUTO
+"Hello team, need SAML login set up with our identity provider. Thanks.",Login / Access,Medium,P2,,REV
+CSV export never finishes and times out. Any help appreciated.,Technical Error,Medium,P2,KB007,REV
+"Quick question: Exported hours do not add up. Regards, Sam",Technical Error,Medium,P3,,REV
+Good morning. Export to csv hangs forever. Any help appreciated.,Technical Error,Medium,P2,KB007,REV
+Good morning. I see two charges for the same invoice. Thanks.,Billing,Medium,P2,KB016,REV
+"Hi support, would love a different theme option. Cheers",Feature Request,Low,P4,KB013,FEED
+What does Pro offer compared to Basic. Please advise.,General Information,Low,P4,KB010,AUTO
+"Hey, this is the third time I report this issue.",Unresolved Issue,High,P2,,REV
+"Dear support, weekly time report has wrong totals. Cheers",Technical Error,Medium,P3,,REV
+Something happened. Please advise.,Technical Error,Medium,P3,,INFO
+"Hi support, can I get a receipt for our records.",Billing,Low,P3,KB004,AUTO
+"Hello, I need help. The password reset mail is missing. Any help appreciated.",Login / Access,Low,P3,KB001,AUTO
+"Hi support, supported operating systems for the app.",General Information,Low,P4,KB011,AUTO
+"Hello team, we want to upgrade our plan. Any help appreciated.",Billing,Low,P3,KB006,AUTO
+"Hi, what does the Pro plan include.",General Information,Low,P4,KB010,AUTO
+"Hey, same error again after your fix.",Unresolved Issue,High,P2,,REV
+"Dear support, we need the invoice in another currency. Please advise.",Billing,Medium,P2,,REV
+"Hello team, forgot the password for my TaskNest login.",Login / Access,Low,P3,KB001,AUTO
+"Dear support, do you have an iPhone app. Any help appreciated.",General Information,Low,P4,KB011,AUTO
+"Hello team, the integration with Google Calendar lost connection. Any help appreciated.",Technical Error,Medium,P3,KB009,REV
+"Urgent? Not sure, but moving from Jira to TaskNest, is that possible. Regards, Sam",General Information,Low,P4,KB012,AUTO
+"Quick question: Our team lead cannot access the workspace. Regards, Sam",Login / Access,Medium,P2,,REV
+"Hi, the mobile app closes by itself when I open a project. Regards, Sam",Technical Error,Medium,P3,,REV
+"Hello, I need help. I was billed twice this month. Please advise.",Billing,Medium,P2,KB016,REV
+"Dear support, complete downtime affecting our entire organisation. Cheers",Technical Error,High,P1,KB014,URG
+"Dear support, what uptime do you commit to. Any help appreciated.",General Information,Medium,P3,,REV
+"Hi, everyone gets a 503 error.",Technical Error,High,P1,KB014,URG
+"Hi, synced events show the wrong day. Any help appreciated.",Technical Error,Medium,P3,KB009,REV
+"Urgent? Not sure, but please add a dark theme. Thanks.",Feature Request,Low,P4,KB013,FEED
+"Hey, when does the sign-in block end. Thank you!",Login / Access,Low,P3,KB002,AUTO
+"Hi, I was billed twice this month. Thanks.",Billing,Medium,P2,KB016,REV
+The platform is unreachable for all our teams. Thanks.,Technical Error,High,P1,KB014,URG
+How many projects are in the Basic plan. Please advise.,General Information,Low,P4,KB010,AUTO
+Supported operating systems for the app. Thank you!,General Information,Low,P4,KB011,AUTO
+"Hi, how do roles work.",General Information,Low,P4,KB015,AUTO
+Turn off two step verification for my user.,Login / Access,Medium,P2,KB003,REV
+Quick question: Employees replied to a phishing mail pretending to be you.,Technical Error,High,P1,,URG
+"Urgent? Not sure, but forgot the password for my TaskNest login.",Login / Access,Low,P3,KB001,AUTO
+Pages are loading slowly since yesterday.,Technical Error,Medium,P3,KB008,REV
+Good morning. An invited teammate cannot accept the invite.,Login / Access,Medium,P2,,REV
+"Hello, I need help. Report download throws a server error.",Technical Error,Medium,P2,KB007,REV
+"Hello, I need help. Exported pdf has no content.",Technical Error,Medium,P2,KB007,REV
+Employees replied to a phishing mail pretending to be you.,Technical Error,High,P1,,URG
+"Hi, can you sign our data protection addendum. Please advise.",General Information,Medium,P3,,REV
+Download invoice for accounting. Please advise.,Billing,Low,P3,KB004,AUTO
+"Hi, send us your security whitepaper for procurement.",General Information,Medium,P3,,REV
+"Hi, need tax details on the invoice for the audit. Regards, Sam",Billing,Medium,P2,,REV
+"Dear support, the link to choose a new password is broken. Regards, Sam",Login / Access,Low,P3,KB001,AUTO
+"Hello team, there is a problem. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Hello, I need help. A stranger was added as workspace admin.",Technical Error,High,P1,,URG
+"Urgent? Not sure, but API calls are rate limited too early.",Technical Error,Medium,P3,,REV
+"Hello team, the amount charged is twice what I expected. Any help appreciated.",Billing,Medium,P2,KB016,REV
+Good morning. Wish there were templates for sprint planning.,Feature Request,Low,P4,KB013,FEED
+"Hello team, our private data is exposed to another customer.",Technical Error,High,P1,,URG
+Good morning. Everything lags when I open big boards. Please advise.,Technical Error,Medium,P3,KB008,REV
+"Hello, I need help. Can I get a receipt for our records. Please advise.",Billing,Low,P3,KB004,AUTO
+"Hi, an issue again.",Technical Error,Medium,P3,,INFO
+"Hey, everything lags when I open big boards. Any help appreciated.",Technical Error,Medium,P3,KB008,REV
+"Hello, I need help. Uploading big files fails.",Technical Error,Medium,P3,,REV
+"Hello, I need help. Where can I see my invoices. Regards, Sam",Billing,Low,P3,KB004,AUTO
+"Hi, outage: nobody in our company can open TaskNest. Thanks.",Technical Error,High,P1,KB014,URG
+"Hello, I need help. Is the Business plan limited by members. Regards, Sam",General Information,Low,P4,KB010,AUTO
+"Hey, the whole service is down for all users. Thanks.",Technical Error,High,P1,KB014,URG
+"Urgent? Not sure, but is TaskNest available for Android.",General Information,Low,P4,KB011,AUTO
+I wish tasks could be linked to documents.,Feature Request,Low,P4,KB013,FEED
+"Hello, I need help. We need a read-only share link feature, please consider it. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hi, something is wrong. Regards, Sam",Technical Error,Medium,P3,,INFO
+App crashes on startup on my phone. Cheers,Technical Error,Medium,P3,,REV
+"Hi, uploading big files fails. Any help appreciated.",Technical Error,Medium,P3,,REV
+No one in the organisation can use the product. Thanks.,Technical Error,High,P1,KB014,URG
+A stranger was added as workspace admin. Please advise.,Technical Error,High,P1,,URG
+How should we organise projects across regions. Cheers,General Information,Medium,P3,,REV
+"Urgent? Not sure, but my phone with the authenticator was stolen.",Login / Access,Medium,P2,KB003,REV
+Do you charge per member on Pro. Cheers,General Information,Low,P4,KB010,AUTO
+"New feature idea: custom statuses with colours. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hello team, everything lags when I open big boards. Regards, Sam",Technical Error,Medium,P3,KB008,REV
+"Hi, I do not have my 2FA device anymore. Regards, Sam",Login / Access,Medium,P2,KB003,REV
+Login page keeps refreshing without letting me in.,Login / Access,Medium,P2,,REV
+"Quick question: Please add a home screen widget. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hi, server error whenever I export the board. Thanks.",Technical Error,Medium,P2,KB007,REV
+Quick question: Comments vanish after reloading.,Technical Error,Medium,P3,,REV
+Can I upload tasks from Excel. Cheers,General Information,Low,P4,KB012,AUTO
+"Hi, I tried the steps you sent and the problem remains. Thanks.",Unresolved Issue,High,P2,,REV
+"Nothing helped, issue still open. Any help appreciated.",Unresolved Issue,High,P2,,REV
+End my plan.,Billing,Low,P3,KB006,AUTO
+"Urgent? Not sure, but is there a desktop client. Please advise.",General Information,Low,P4,KB011,AUTO
+"Hello team, need SAML login set up with our identity provider. Any help appreciated.",Login / Access,Medium,P2,,REV
+When will the new plan start after I upgrade. Cheers,Billing,Low,P3,KB006,AUTO
+"Hi, my account was compromised and I see strange activity.",Technical Error,High,P1,,URG
+"Hey, I'd like the invoice for the quarter. Please advise.",Billing,Low,P3,KB004,AUTO
+No one in the organisation can use the product. Cheers,Technical Error,High,P1,KB014,URG
+"Hi support, security incident: private project visible to outsiders.",Technical Error,High,P1,,URG
+Change payment method please.,Billing,Low,P3,KB005,AUTO
+"Hello, I need help. Can I get a copy of our invoice for March.",Billing,Low,P3,KB004,AUTO
+I would like to suggest a calendar view with weeks. Thanks.,Feature Request,Low,P4,KB013,FEED
+"Urgent? Not sure, but CSV export never finishes and times out. Any help appreciated.",Technical Error,Medium,P2,KB007,REV
+"Dear support, the workaround did not work for us. Any help appreciated.",Unresolved Issue,High,P2,,REV
+"Urgent? Not sure, but migrating from another tool, is there an importer. Thank you!",General Information,Low,P4,KB012,AUTO
+"Hello, I need help. What does Pro offer compared to Basic. Regards, Sam",General Information,Low,P4,KB010,AUTO
+"Hello team, calendar sync stopped working. Cheers",Technical Error,Medium,P3,KB009,REV
+"Hello, I need help. I want to use a different card.",Billing,Low,P3,KB005,AUTO
+Quick question: Email notifications are delayed by hours. Please advise.,Technical Error,Medium,P3,,REV
+"Hello, I need help. Integration keeps disconnecting every few days. Any help appreciated.",Technical Error,Medium,P3,KB009,REV
+"Hello team, our API token leaked on a public repository. Thank you!",Technical Error,High,P1,,URG
+"Hi support, how can I cancel the subscription.",Billing,Low,P3,KB006,AUTO
+"Quick question: TaskNest is not loading for any of our staff. Regards, Sam",Technical Error,High,P1,KB014,URG
+Good morning. What are the limits on the free plan.,General Information,Low,P4,KB010,AUTO
+"Hey, do you support importing from Asana. Thanks.",General Information,Low,P4,KB012,AUTO
+"Hi support, do you offer training sessions for teams. Cheers",General Information,Medium,P3,,REV
+Request: reminder emails for overdue tasks.,Feature Request,Low,P4,KB013,FEED
+"Dear support, complete downtime affecting our entire organisation. Thanks.",Technical Error,High,P1,KB014,URG
+Quick question: Can we sign a DPA. Thanks.,General Information,Medium,P3,,REV
+Good morning. Where is the forgot password option. Thank you!,Login / Access,Low,P3,KB001,AUTO
+"Same error again after your fix. Regards, Sam",Unresolved Issue,High,P2,,REV
+"Hi, any chance of a calendar sync for subtasks being added. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hi, what uptime percentage do you guarantee. Any help appreciated.",General Information,Medium,P3,,REV
+Help me please. Thanks.,Technical Error,Medium,P3,,INFO
+"Hello, I need help. It is not working. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Quick question: Which web browsers are supported. Regards, Sam",General Information,Low,P4,KB011,AUTO
+"Urgent? Not sure, but how to switch from Pro to Business. Please advise.",Billing,Low,P3,KB006,AUTO
+I need last quarter's invoice as a PDF. Thanks.,Billing,Low,P3,KB004,AUTO
+"Hello, I need help. Scrolling is choppy on big lists. Please advise.",Technical Error,Medium,P3,KB008,REV
+"Hi support, your suggestion did not fix it. Please advise.",Unresolved Issue,High,P2,,REV
+Do you offer training sessions for teams.,General Information,Medium,P3,,REV
+Quick question: Send us your security whitepaper for procurement. Please advise.,General Information,Medium,P3,,REV
+"Hello team, I want my money back for the annual plan.",Billing,Medium,P2,KB016,REV
+"Hello team, automation rule runs twice.",Technical Error,Medium,P3,,REV
+"Dear support, Slack notifications are no longer posted.",Technical Error,Medium,P3,KB009,REV
+Can I upload tasks from Excel. Any help appreciated.,General Information,Low,P4,KB012,AUTO
+Good morning. Give a coworker more permissions. Please advise.,General Information,Low,P4,KB015,AUTO
+"Hello, I need help. Can you look into this.",Technical Error,Medium,P3,,INFO
+"Hello team, suggestion: reminders by SMS. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hello, I need help. The calendar page returns a 500 error.",Technical Error,Medium,P3,,REV
+"Dear support, the invoice lists a plan we do not use.",Billing,Medium,P2,,REV
+"Urgent? Not sure, but would be nice to have colours for custom fields. Cheers",Feature Request,Low,P4,KB013,FEED
+"Hello team, swap the payment card on our account. Cheers",Billing,Low,P3,KB005,AUTO
+"Dear support, credentials were shared with someone suspicious and now strange activity appears. Cheers",Technical Error,High,P1,,URG
+"Hey, how to import tasks from a CSV file. Thank you!",General Information,Low,P4,KB012,AUTO
+"Quick question: We got overcharged, please check.",Billing,Medium,P2,KB016,REV
+"Hello team, feature request: templates for recurring projects. Please advise.",Feature Request,Low,P4,KB013,FEED
+"Hello team, where can I see my invoices. Cheers",Billing,Low,P3,KB004,AUTO
+Good morning. Please assist.,Technical Error,Medium,P3,,INFO
+"Hello team, application is not reachable for any of our employees. Any help appreciated.",Technical Error,High,P1,KB014,URG
+"Hey, feature request: templates for recurring projects. Cheers",Feature Request,Low,P4,KB013,FEED
+"Hi support, very laggy this afternoon. Any help appreciated.",Technical Error,Medium,P3,KB008,REV
+Quick question: Which payment options can I use. Please advise.,Billing,Low,P3,KB005,AUTO
+"Dear support, unauthorised changes were made to our billing owner. Any help appreciated.",Technical Error,High,P1,,URG
+"Urgent? Not sure, but tasks are missing from the search index. Thanks.",Technical Error,Medium,P3,,REV
+"Hi support, can a member see all projects. Cheers",General Information,Low,P4,KB015,AUTO
+I get an error 500 on the timeline page. Cheers,Technical Error,Medium,P3,,REV
+"Can I get a copy of our invoice for March. Regards, Sam",Billing,Low,P3,KB004,AUTO
+"We believe there has been a data breach in our workspace. Regards, Sam",Technical Error,High,P1,,URG
+"Hello, I need help. Backup codes are gone and I cannot pass verification.",Login / Access,Medium,P2,KB003,REV
+"Dear support, TaskNest feels sluggish on my laptop. Regards, Sam",Technical Error,Medium,P3,KB008,REV
+How long are deleted items kept. Thanks.,General Information,Medium,P3,,REV
+Could the sidebar be made smaller.,Feature Request,Low,P4,KB013,FEED
+"Good morning. Can't recall my sign-in password, what now.",Login / Access,Low,P3,KB001,AUTO
+"Urgent? Not sure, but any chance of a calendar sync for subtasks being added. Thanks.",Feature Request,Low,P4,KB013,FEED
+"Dear support, loading screen spins for minutes.",Technical Error,Medium,P3,KB008,REV
+"Urgent? Not sure, but how many projects are in the Basic plan. Any help appreciated.",General Information,Low,P4,KB010,AUTO
+"Hello team, how do I unlock my account. Any help appreciated.",Login / Access,Low,P3,KB002,AUTO
+Search does not find new tasks. Thanks.,Technical Error,Medium,P3,,REV
+"Hi support, I would like to switch to a smaller plan. Regards, Sam",Billing,Low,P3,KB006,AUTO
+"Hi support, site is down for every team, please escalate. Cheers",Technical Error,High,P1,KB014,URG
+Good morning. Where are your servers located.,General Information,Medium,P3,,REV
+"Hello team, the export button fails with an error message. Please advise.",Technical Error,Medium,P2,KB007,REV
+"Hello, I need help. Unauthorised changes were made to our billing owner.",Technical Error,High,P1,,URG
+"Hi support, I think someone hacked our workspace. Cheers",Technical Error,High,P1,,URG
+"Dear support, who can invite people to a workspace. Regards, Sam",General Information,Low,P4,KB015,AUTO
+"Hello team, credentials were shared with someone suspicious and now strange activity appears. Please advise.",Technical Error,High,P1,,URG
+"Hey, the invoice shows the wrong company name. Any help appreciated.",Billing,Medium,P2,,REV
+Quick question: How soon can I try logging in again after being locked. Any help appreciated.,Login / Access,Low,P3,KB002,AUTO
+"Hey, how long are deleted items kept.",General Information,Medium,P3,,REV
+"Hello, I need help. Automation rule runs twice.",Technical Error,Medium,P3,,REV
+"Hello, I need help. Do you plan to add an offline mode. Thank you!",Feature Request,Low,P4,KB013,FEED
+"Hello team, export to csv hangs forever. Regards, Sam",Technical Error,Medium,P2,KB007,REV
+"Hi, is TaskNest available for Android. Regards, Sam",General Information,Low,P4,KB011,AUTO
+"Hello, I need help. App crashes on startup on my phone. Regards, Sam",Technical Error,Medium,P3,,REV
+Quick question: Exported hours do not add up. Thank you!,Technical Error,Medium,P3,,REV
+Good morning. Two step verification codes are invalid. Any help appreciated.,Login / Access,Medium,P2,KB003,REV
+"Hello, I need help. What uptime percentage do you guarantee.",General Information,Medium,P3,,REV
+"Dear support, is a native Zoom integration coming.",Feature Request,Low,P4,KB013,FEED
+"Hi support, who can remove members. Cheers",General Information,Low,P4,KB015,AUTO
+"Hello team, everyone gets a 503 error. Any help appreciated.",Technical Error,High,P1,KB014,URG
+How to import tasks from a CSV file.,General Information,Low,P4,KB012,AUTO
+"Hey, webhook calls fire twice. Any help appreciated.",Technical Error,Medium,P3,,REV
+What is the monthly price of the Business plan. Thank you!,General Information,Low,P4,KB010,AUTO
+"Hey, synced events show the wrong day. Cheers",Technical Error,Medium,P3,KB009,REV
+I tried the steps you sent and the problem remains.,Unresolved Issue,High,P2,,REV
+"Hi, help me please. Thanks.",Technical Error,Medium,P3,,INFO
+"Dear support, PDF export creates a blank page.",Technical Error,Medium,P2,KB007,REV
+I wish the board had a compact layout. Thanks.,Feature Request,Low,P4,KB013,FEED
+Search does not find new tasks. Thank you!,Technical Error,Medium,P3,,REV
+Good morning. I want to reset the password of my account. Thanks.,Login / Access,Low,P3,KB001,AUTO
+"Hey, I do not remember my password. Thanks.",Login / Access,Low,P3,KB001,AUTO
+"Hi support, authenticator app was wiped from my phone. Any help appreciated.",Login / Access,Medium,P2,KB003,REV
+"Hi support, how to configure single sign-on for our company.",Login / Access,Medium,P2,,REV
+"Hello team, wish there were templates for sprint planning. Any help appreciated.",Feature Request,Low,P4,KB013,FEED
+"Hello team, can we sign a DPA. Regards, Sam",General Information,Medium,P3,,REV
+Good morning. The payment failed and my workspace is suspended. Please advise.,Billing,Medium,P2,,REV
+Good morning. I need last quarter's invoice as a PDF. Cheers,Billing,Low,P3,KB004,AUTO
+"Dear support, I wish the board had a compact layout.",Feature Request,Low,P4,KB013,FEED
+Who can invite people to a workspace. Any help appreciated.,General Information,Low,P4,KB015,AUTO
+"Hi support, I am locked out after entering the wrong password.",Login / Access,Low,P3,KB002,AUTO
+"Dear support, sign in fails with unknown error for the whole finance group.",Login / Access,Medium,P2,,REV
+"Hello team, this is broken.",Technical Error,Medium,P3,,INFO
+"Hi, my phone with the authenticator was stolen. Any help appreciated.",Login / Access,Medium,P2,KB003,REV
+"Hello, I need help. Payment did not go through and we lost write access.",Billing,Medium,P2,,REV
+"We got overcharged, please check. Regards, Sam",Billing,Medium,P2,KB016,REV
+"Hello, I need help. Is there a desktop client. Cheers",General Information,Low,P4,KB011,AUTO
+"Dear support, none of us can enter the workspace and a client demo is today. Thanks.",Login / Access,Medium,P2,,REV
+"Hello team, is the Business plan limited by members.",General Information,Low,P4,KB010,AUTO
+"Hello, I need help. An extra payment was taken from our card.",Billing,Medium,P2,KB016,REV
+I do not have my 2FA device anymore. Cheers,Login / Access,Medium,P2,KB003,REV
+Security incident: private project visible to outsiders.,Technical Error,High,P1,,URG
+Quick question: The email with the new password link has not come through.,Login / Access,Low,P3,KB001,AUTO
+"Hi, what operating systems does the app support. Cheers",General Information,Low,P4,KB011,AUTO
+Good morning. Where do you host our data. Cheers,General Information,Medium,P3,,REV
+Good morning. I wrote twice already about this and still no solution. Thanks.,Unresolved Issue,High,P2,,REV
+We need the invoice in another currency. Thanks.,Billing,Medium,P2,,REV
+"Hi, the article you pointed to did not solve it. Regards, Sam",Unresolved Issue,High,P2,,REV
+Is audit export part of Business. Cheers,General Information,Low,P4,KB010,AUTO
+"Hello, I need help. Does it work on tablets. Thanks.",General Information,Low,P4,KB011,AUTO
+Please check my issue. Any help appreciated.,Technical Error,Medium,P3,,INFO
+Good morning. None of us can enter the workspace and a client demo is today. Please advise.,Login / Access,Medium,P2,,REV
+"Hi, billed more than agreed in the quote. Please advise.",Billing,Medium,P2,KB016,REV
+"Good morning. I do not have my 2FA device anymore. Regards, Sam",Login / Access,Medium,P2,KB003,REV
+"Urgent? Not sure, but no change after following all instructions. Thank you!",Unresolved Issue,High,P2,,REV
+Complete downtime affecting our entire organisation.,Technical Error,High,P1,KB014,URG
+Would love a different theme option. Cheers,Feature Request,Low,P4,KB013,FEED
+"Hello, I need help. I want to reset the password of my account.",Login / Access,Low,P3,KB001,AUTO
+Good morning. I already did everything the guide says. Thank you!,Unresolved Issue,High,P2,,REV
+"Hello, I need help. Who can invite people to a workspace. Regards, Sam",General Information,Low,P4,KB015,AUTO
+"Hi, calendar sync stopped working. Regards, Sam",Technical Error,Medium,P3,KB009,REV
+"Hi support, how do I load a backlog from another system. Regards, Sam",General Information,Low,P4,KB012,AUTO
+"Dear support, can't remember my login password, how do I recover it.",Login / Access,Low,P3,KB001,AUTO
+"Hello team, can I run it in Firefox. Cheers",General Information,Low,P4,KB011,AUTO
+"Quick question: The platform is unreachable for all our teams. Regards, Sam",Technical Error,High,P1,KB014,URG
+"Hey, can't recall my sign-in password, what now. Thanks.",Login / Access,Low,P3,KB001,AUTO
+"Hello, I need help. Does it work on tablets. Cheers",General Information,Low,P4,KB011,AUTO
+Good morning. Your suggestion did not fix it. Cheers,Unresolved Issue,High,P2,,REV
+"Dear support, what operating systems does the app support. Thanks.",General Information,Low,P4,KB011,AUTO
+Quick question: How to switch from Pro to Business.,Billing,Low,P3,KB006,AUTO
+"Hey, we need invoices in a different currency.",Billing,Medium,P2,,REV
+Our API token leaked on a public repository. Any help appreciated.,Technical Error,High,P1,,URG
+"Dear support, all our users see a gateway error. Please advise.",Technical Error,High,P1,KB014,URG
+"Hello team, when does the sign-in block end. Any help appreciated.",Login / Access,Low,P3,KB002,AUTO
+"Urgent? Not sure, but API calls are rate limited too early. Thanks.",Technical Error,Medium,P3,,REV
+"Hello team, can you sign our data protection addendum. Please advise.",General Information,Medium,P3,,REV
+"Urgent? Not sure, but the link to choose a new password is broken.",Login / Access,Low,P3,KB001,AUTO
+How should we organise projects across regions. Please advise.,General Information,Medium,P3,,REV
+"Hi support, setting up Okta single sign-on for our staff.",Login / Access,Medium,P2,,REV
+It is not working. Please advise.,Technical Error,Medium,P3,,INFO
+"Dear support, how do I add a teammate. Please advise.",General Information,Low,P4,KB015,AUTO
+"Hello, I need help. Locked out for fifteen minutes, can I speed that up. Thanks.",Login / Access,Low,P3,KB002,AUTO
+"Hello, I need help. Can you sign our data protection addendum. Thanks.",General Information,Medium,P3,,REV
+What is the monthly price of the Business plan.,General Information,Low,P4,KB010,AUTO
+"Hi, email notifications are delayed by hours. Regards, Sam",Technical Error,Medium,P3,,REV
+Quick question: Can I get a copy of our invoice for March. Cheers,Billing,Low,P3,KB004,AUTO
+"Hey, Slack notifications are no longer posted. Thank you!",Technical Error,Medium,P3,KB009,REV
+"Urgent? Not sure, but do you charge per member on Pro. Regards, Sam",General Information,Low,P4,KB010,AUTO
+"Dear support, end my plan. Thanks.",Billing,Low,P3,KB006,AUTO
+Good morning. Slack messages from TaskNest stopped arriving. Thanks.,Technical Error,Medium,P3,KB009,REV
+Quick question: Suggestion: reminders by SMS. Cheers,Feature Request,Low,P4,KB013,FEED
+"Urgent? Not sure, but exporting a report gives an internal server error.",Technical Error,Medium,P2,KB007,REV
+"Hi support, I wish the board had a compact layout. Thanks.",Feature Request,Low,P4,KB013,FEED
+"Hey, our API token leaked on a public repository. Please advise.",Technical Error,High,P1,,URG
+"Hey, the calendar integration shows events a day late. Thanks.",Technical Error,Medium,P3,KB009,REV
+"Dear support, the email with the new password link has not come through.",Login / Access,Low,P3,KB001,AUTO
+"Hi, how do I get the billing history.",Billing,Low,P3,KB004,AUTO
+"Hi, account says too many attempts, try later. Thanks.",Login / Access,Low,P3,KB002,AUTO
+"Hi, how do I change plans.",Billing,Low,P3,KB006,AUTO
+The amount charged is twice what I expected.,Billing,Medium,P2,KB016,REV
+"Dear support, the whole service is down for all users. Thanks.",Technical Error,High,P1,KB014,URG
+Need 2FA turned off because the verification code never comes. Thank you!,Login / Access,Medium,P2,KB003,REV
+"Hey, could the sidebar be made smaller. Thank you!",Feature Request,Low,P4,KB013,FEED
+"Hey, is there a pricing option for universities.",General Information,Medium,P3,,REV
+What does Pro offer compared to Basic.,General Information,Low,P4,KB010,AUTO
+"Hello, I need help. I want to use a different card. Any help appreciated.",Billing,Low,P3,KB005,AUTO
+"Lost the second factor, how do I get in. Any help appreciated.",Login / Access,Medium,P2,KB003,REV
+"Email notifications are delayed by hours. Regards, Sam",Technical Error,Medium,P3,,REV
+"Hey, exported pdf has no content. Please advise.",Technical Error,Medium,P2,KB007,REV
+"Dear support, what is the largest import allowed. Please advise.",General Information,Low,P4,KB012,AUTO
+I tried the steps you sent and the problem remains. Any help appreciated.,Unresolved Issue,High,P2,,REV
+"Dear support, everyone gets a 503 error.",Technical Error,High,P1,KB014,URG
+App crashes on startup on my phone. Thank you!,Technical Error,Medium,P3,,REV
+"Hello team, download invoice for accounting. Please advise.",Billing,Low,P3,KB004,AUTO
+"Urgent? Not sure, but a huge project takes ages to open. Any help appreciated.",Technical Error,Medium,P3,KB008,REV
+"Hi support, suspicious login from a country we do not operate in. Thanks.",Technical Error,High,P1,,URG
+"Hello, I need help. Stop our subscription at the end of the month.",Billing,Low,P3,KB006,AUTO
+The invoice lists a plan we do not use.,Billing,Medium,P2,,REV
+"Hey, Slack messages from TaskNest stopped arriving. Any help appreciated.",Technical Error,Medium,P3,KB009,REV
+"Dear support, pdf of the invoice for the finance team. Regards, Sam",Billing,Low,P3,KB004,AUTO
+"Hello team, an unknown person has admin rights in our workspace.",Technical Error,High,P1,,URG
+"Hi support, do you have a nonprofit price.",General Information,Medium,P3,,REV
+"Hi, end my plan. Regards, Sam",Billing,Low,P3,KB006,AUTO
+"Dear support, is there a discount for charities. Please advise.",General Information,Medium,P3,,REV
+I wish tasks could be linked to documents. Any help appreciated.,Feature Request,Low,P4,KB013,FEED
+"Hi support, my account was compromised and I see strange activity. Regards, Sam",Technical Error,High,P1,,URG
+"Hey, how soon can I try logging in again after being locked.",Login / Access,Low,P3,KB002,AUTO
+Our Slack channel gets no updates from TaskNest. Cheers,Technical Error,Medium,P3,KB009,REV
+"Good morning. The article you pointed to did not solve it. Regards, Sam",Unresolved Issue,High,P2,,REV
+"Dear support, I wrote twice already about this and still no solution.",Unresolved Issue,High,P2,,REV
+"Urgent? Not sure, but two-way sync with Outlook calendar broke. Please advise.",Technical Error,Medium,P3,KB009,REV
+Good morning. I want to reset the password of my account. Please advise.,Login / Access,Low,P3,KB001,AUTO
+Tasks are missing from the search index. Thank you!,Technical Error,Medium,P3,,REV
+"Hello, I need help. We believe there has been a data breach in our workspace.",Technical Error,High,P1,,URG
+Quick question: Pdf of the invoice for the finance team. Thank you!,Billing,Low,P3,KB004,AUTO
+"Hello, I need help. Can you support time estimates in hours and minutes. Any help appreciated.",Feature Request,Low,P4,KB013,FEED
+Quick question: Server error whenever I export the board. Thanks.,Technical Error,Medium,P2,KB007,REV
+"I want to use a different card. Regards, Sam",Billing,Low,P3,KB005,AUTO
+"Hi support, board drag and drop is broken in my browser.",Technical Error,Medium,P3,,REV
+"Hello team, is there a desktop client. Regards, Sam",General Information,Low,P4,KB011,AUTO
+"Hey, calendar sync stopped working. Cheers",Technical Error,Medium,P3,KB009,REV
+Quick question: The mobile app closes by itself when I open a project. Any help appreciated.,Technical Error,Medium,P3,,REV
+"Dear support, still not resolved after following the article.",Unresolved Issue,High,P2,,REV
+"Hello team, synced events show the wrong day. Regards, Sam",Technical Error,Medium,P3,KB009,REV
+Good morning. File upload fails for large attachments.,Technical Error,Medium,P3,,REV
+"Your fix did not help. Regards, Sam",Unresolved Issue,High,P2,,REV
+"Hello team, I cannot log in to my workspace and need it today. Any help appreciated.",Login / Access,Medium,P2,,REV
+Backup codes are gone and I cannot pass verification.,Login / Access,Medium,P2,KB003,REV
+Quick question: My phone with the authenticator was stolen. Thank you!,Login / Access,Medium,P2,KB003,REV
+"Dear support, this is broken. Thanks.",Technical Error,Medium,P3,,INFO
+"Hey, Slack notifications are no longer posted. Cheers",Technical Error,Medium,P3,KB009,REV
+"Urgent? Not sure, but something happened.",Technical Error,Medium,P3,,INFO
+Which tier has SSO.,General Information,Low,P4,KB010,AUTO
+"Urgent? Not sure, but need tax details on the invoice for the audit.",Billing,Medium,P2,,REV
+"Hey, any chance of a calendar sync for subtasks being added. Thank you!",Feature Request,Low,P4,KB013,FEED
+Quick question: Where do I see past invoices. Thanks.,Billing,Low,P3,KB004,AUTO
+"Hello, I need help. I am locked out after entering the wrong password.",Login / Access,Low,P3,KB002,AUTO
+"Hello team, wish there were templates for sprint planning. Please advise.",Feature Request,Low,P4,KB013,FEED
+"Hey, please check my issue. Cheers",Technical Error,Medium,P3,,INFO
+"Dear support, could you add a feature for task dependencies. Any help appreciated.",Feature Request,Low,P4,KB013,FEED
+"Hi, employees replied to a phishing mail pretending to be you. Thank you!",Technical Error,High,P1,,URG
+"Dear support, add the ability to pin projects. Cheers",Feature Request,Low,P4,KB013,FEED
+Invitation link for the new colleague does not work. Cheers,Login / Access,Medium,P2,,REV
+Quick question: It came back after you closed my ticket. Thanks.,Unresolved Issue,High,P2,,REV
+Need help urgently. Any help appreciated.,Technical Error,Medium,P3,,INFO
+"Hey, the calendar integration shows events a day late. Thank you!",Technical Error,Medium,P3,KB009,REV
+Can you support time estimates in hours and minutes.,Feature Request,Low,P4,KB013,FEED
+"Quick question: Your suggestion did not fix it. Regards, Sam",Unresolved Issue,High,P2,,REV
+Quick question: Pages are loading slowly since yesterday. Cheers,Technical Error,Medium,P3,KB008,REV
+"Dear support, is a native Zoom integration coming. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hi support, account says too many attempts, try later. Any help appreciated.",Login / Access,Low,P3,KB002,AUTO
+"Hi, TaskNest is not loading for any of our staff. Please advise.",Technical Error,High,P1,KB014,URG
+"Hi, send me the receipt for the payment.",Billing,Low,P3,KB004,AUTO
+Quick question: What compliance certifications do you hold.,General Information,Medium,P3,,REV
+"Urgent? Not sure, but what compliance certifications do you hold.",General Information,Medium,P3,,REV
+Please check my issue. Thanks.,Technical Error,Medium,P3,,INFO
+Quick question: Update the card used for billing.,Billing,Low,P3,KB005,AUTO
+Billing contact change request with a tax number.,Billing,Medium,P2,,REV
+Bring existing tasks from a spreadsheet.,General Information,Low,P4,KB012,AUTO
+"Dear support, can I move my Trello board into TaskNest.",General Information,Low,P4,KB012,AUTO
+Quick question: We believe there has been a data breach in our workspace. Any help appreciated.,Technical Error,High,P1,,URG
+"Dear support, please add a home screen widget. Please advise.",Feature Request,Low,P4,KB013,FEED
+My account was compromised and I see strange activity.,Technical Error,High,P1,,URG
+Please add a home screen widget. Cheers,Feature Request,Low,P4,KB013,FEED
+"Hello, I need help. Where do you host our data. Thank you!",General Information,Medium,P3,,REV
+"Urgent? Not sure, but nothing helped, issue still open.",Unresolved Issue,High,P2,,REV
+"Dear support, I need last quarter's invoice as a PDF.",Billing,Low,P3,KB004,AUTO
+Good morning. The password reset mail is missing.,Login / Access,Low,P3,KB001,AUTO
+Payment did not go through and we lost write access. Thanks.,Billing,Medium,P2,,REV
+Is TaskNest available for Android. Cheers,General Information,Low,P4,KB011,AUTO
+"Hey, uploading big files fails. Any help appreciated.",Technical Error,Medium,P3,,REV
+"How do I give someone admin rights. Regards, Sam",General Information,Low,P4,KB015,AUTO
+"Hi, is there a discount for charities. Please advise.",General Information,Medium,P3,,REV
+Good morning. What uptime percentage do you guarantee. Any help appreciated.,General Information,Medium,P3,,REV
+"Hey, my account is locked. Thank you!",Login / Access,Low,P3,KB002,AUTO
+"Hey, the calendar page returns a 500 error.",Technical Error,Medium,P3,,REV
+Same error again after your fix. Any help appreciated.,Unresolved Issue,High,P2,,REV
+Is there a pricing option for universities. Any help appreciated.,General Information,Medium,P3,,REV
+Send security details for vendor review.,General Information,Medium,P3,,REV
+"This is broken. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Hi support, how do I get the billing history. Regards, Sam",Billing,Low,P3,KB004,AUTO
+"Hello, I need help. I got blocked from signing in after a few wrong tries.",Login / Access,Low,P3,KB002,AUTO
+Good morning. Unauthorised export of all projects happened overnight.,Technical Error,High,P1,,URG
+"Hello, I need help. I cannot reach my account after changing my email. Thanks.",Login / Access,Medium,P2,,REV
+How to configure single sign-on for our company.,Login / Access,Medium,P2,,REV
+Billed more than agreed in the quote.,Billing,Medium,P2,KB016,REV
+Good morning. Exporting a report gives an internal server error. Cheers,Technical Error,Medium,P2,KB007,REV
+"Urgent? Not sure, but billing contact change request with a tax number.",Billing,Medium,P2,,REV
+"Hello team, the article you pointed to did not solve it. Regards, Sam",Unresolved Issue,High,P2,,REV
+"Hey, it would help to have bulk actions on cards.",Feature Request,Low,P4,KB013,FEED
+"Hey, do you charge per member on Pro. Thank you!",General Information,Low,P4,KB010,AUTO
+"Hi, TaskNest is not loading for any of our staff. Thanks.",Technical Error,High,P1,KB014,URG
+Our team lead cannot access the workspace. Please advise.,Login / Access,Medium,P2,,REV
+Do I get unlimited members with Business.,General Information,Low,P4,KB010,AUTO
+Would be nice to have colours for custom fields. Thank you!,Feature Request,Low,P4,KB013,FEED
+"Urgent? Not sure, but change payment method please. Thank you!",Billing,Low,P3,KB005,AUTO
+"Hello, I need help. How do I give someone admin rights.",General Information,Low,P4,KB015,AUTO
+"Hi, your fix did not help. Any help appreciated.",Unresolved Issue,High,P2,,REV
+"Hello, I need help. Please assist. Thanks.",Technical Error,Medium,P3,,INFO
+"Dear support, we need the invoice in another currency. Cheers",Billing,Medium,P2,,REV
+"Tasks are missing from the search index. Regards, Sam",Technical Error,Medium,P3,,REV
+"Error on my screen. Regards, Sam",Technical Error,Medium,P3,,INFO
+Unauthorised export of all projects happened overnight.,Technical Error,High,P1,,URG
+"Hey, the card on file is outdated.",Billing,Low,P3,KB005,AUTO
+Quick question: Move to a lower tier next cycle. Thank you!,Billing,Low,P3,KB006,AUTO
+"Account says too many attempts, try later. Regards, Sam",Login / Access,Low,P3,KB002,AUTO
+"Hey, credentials were shared with someone suspicious and now strange activity appears. Thank you!",Technical Error,High,P1,,URG
+Invoice total is wrong for our number of seats. Thank you!,Billing,Medium,P2,,REV
+"Hey, the export button fails with an error message. Cheers",Technical Error,Medium,P2,KB007,REV
+"Hi support, our Slack channel gets no updates from TaskNest. Cheers",Technical Error,Medium,P3,KB009,REV
+Quick question: Unauthorised changes were made to our billing owner. Thanks.,Technical Error,High,P1,,URG
+"Hello team, scrolling is choppy on big lists.",Technical Error,Medium,P3,KB008,REV
+"Hi support, it came back after you closed my ticket. Any help appreciated.",Unresolved Issue,High,P2,,REV
+Still seeing the same error after the workaround. Thank you!,Unresolved Issue,High,P2,,REV
+Quick question: Please refund the last payment. Any help appreciated.,Billing,Medium,P2,KB016,REV
+"Hello team, can I upload tasks from Excel. Thanks.",General Information,Low,P4,KB012,AUTO
+"Hi, when will the new plan start after I upgrade. Cheers",Billing,Low,P3,KB006,AUTO
+"Can you support time estimates in hours and minutes. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hello team, we need invoices in a different currency. Thanks.",Billing,Medium,P2,,REV
+"Hey, setting up Okta single sign-on for our staff.",Login / Access,Medium,P2,,REV
+"Hi support, my bank declined the payment but the card is fine. Regards, Sam",Billing,Medium,P2,,REV
+Which payment options can I use. Any help appreciated.,Billing,Low,P3,KB005,AUTO
+"Hello team, I cannot reach my account after changing my email. Thanks.",Login / Access,Medium,P2,,REV
+We believe there has been a data breach in our workspace.,Technical Error,High,P1,,URG
+Cost of the Pro tier. Please advise.,General Information,Low,P4,KB010,AUTO
+An invited teammate cannot accept the invite. Thanks.,Login / Access,Medium,P2,,REV
+An issue again. Thanks.,Technical Error,Medium,P3,,INFO
+"Hi, complete downtime affecting our entire organisation. Cheers",Technical Error,High,P1,KB014,URG
+"Hello, I need help. The card on file is outdated. Cheers",Billing,Low,P3,KB005,AUTO
+"Hello, I need help. How to switch from Pro to Business. Any help appreciated.",Billing,Low,P3,KB006,AUTO
+"Hello team, can a member see all projects. Regards, Sam",General Information,Low,P4,KB015,AUTO
+"Hello, I need help. Add a new credit card for future payments.",Billing,Low,P3,KB005,AUTO
+Good morning. Would love a different theme option. Thanks.,Feature Request,Low,P4,KB013,FEED
+Need 2FA turned off because the verification code never comes. Any help appreciated.,Login / Access,Medium,P2,KB003,REV
+Quick question: Still not resolved after following the article. Please advise.,Unresolved Issue,High,P2,,REV
+Quick question: What is the largest import allowed. Thanks.,General Information,Low,P4,KB012,AUTO
+"Hello team, we need a read-only share link feature, please consider it. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+Could you add a feature for task dependencies.,Feature Request,Low,P4,KB013,FEED
+"Hello, I need help. Can guests see all projects.",General Information,Low,P4,KB015,AUTO
+Application is not reachable for any of our employees. Any help appreciated.,Technical Error,High,P1,KB014,URG
+Quick question: Bring existing tasks from a spreadsheet. Please advise.,General Information,Low,P4,KB012,AUTO
+"Urgent? Not sure, but the payment failed and my workspace is suspended. Regards, Sam",Billing,Medium,P2,,REV
+Performance has gotten much worse for me. Thanks.,Technical Error,Medium,P3,KB008,REV
+"Hey, API calls are rate limited too early. Thank you!",Technical Error,Medium,P3,,REV
+Good morning. Move to a lower tier next cycle.,Billing,Low,P3,KB006,AUTO
+"Good morning. Still not resolved after following the article. Regards, Sam",Unresolved Issue,High,P2,,REV
+"Hi, can you look into this. Any help appreciated.",Technical Error,Medium,P3,,INFO
+Can a member see all projects.,General Information,Low,P4,KB015,AUTO
+"Hello, I need help. We discovered a leaked access token. Thank you!",Technical Error,High,P1,,URG
+"Hello team, can I downgrade next billing cycle.",Billing,Low,P3,KB006,AUTO
+Application is not reachable for any of our employees. Thanks.,Technical Error,High,P1,KB014,URG
+"Moving from Jira to TaskNest, is that possible. Regards, Sam",General Information,Low,P4,KB012,AUTO
+"Ask for a refund since we did not use the product. Regards, Sam",Billing,Medium,P2,KB016,REV
+How much does Basic cost per user.,General Information,Low,P4,KB010,AUTO
+"Hi, our private data is exposed to another customer. Thank you!",Technical Error,High,P1,,URG
+"Good morning. Our card has expired, where do I add a new one.",Billing,Low,P3,KB005,AUTO
+"Hi, error on my screen. Any help appreciated.",Technical Error,Medium,P3,,INFO
+"How can I set a new password. Regards, Sam",Login / Access,Low,P3,KB001,AUTO
+Good morning. The mobile app closes by itself when I open a project.,Technical Error,Medium,P3,,REV
+"Hey, we need a read-only share link feature, please consider it. Thanks.",Feature Request,Low,P4,KB013,FEED
+Quick question: I need assistance.,Technical Error,Medium,P3,,INFO
+Quick question: The payment failed and my workspace is suspended.,Billing,Medium,P2,,REV
+All our users see a gateway error.,Technical Error,High,P1,KB014,URG
+"Hey, my reset link is not working.",Login / Access,Low,P3,KB001,AUTO
+"Hi support, CSV export never finishes and times out. Thanks.",Technical Error,Medium,P2,KB007,REV
+"Hey, I see two charges for the same invoice.",Billing,Medium,P2,KB016,REV
+"Dear support, locked out for fifteen minutes, can I speed that up. Thank you!",Login / Access,Low,P3,KB002,AUTO
+"Hey, is a native Zoom integration coming.",Feature Request,Low,P4,KB013,FEED
+"Hello team, I cannot log in to my workspace and need it today.",Login / Access,Medium,P2,,REV
+"Hello, I need help. Add a new credit card for future payments. Thanks.",Billing,Low,P3,KB005,AUTO
+Where can I see my invoices.,Billing,Low,P3,KB004,AUTO
+"Hi support, I'd like the invoice for the quarter. Thanks.",Billing,Low,P3,KB004,AUTO
+My reset link is not working.,Login / Access,Low,P3,KB001,AUTO
+"Quick question: Where do you host our data. Regards, Sam",General Information,Medium,P3,,REV
+"Hello team, send me the receipt for the payment. Thanks.",Billing,Low,P3,KB004,AUTO
+Good morning. How long are deleted items kept. Thank you!,General Information,Medium,P3,,REV
+"Hello team, please assist. Any help appreciated.",Technical Error,Medium,P3,,INFO
+Good morning. Someone unknown accessed our account and downloaded data. Any help appreciated.,Technical Error,High,P1,,URG
+Server error whenever I export the board.,Technical Error,Medium,P2,KB007,REV
+"All our users see a gateway error. Regards, Sam",Technical Error,High,P1,KB014,URG
+Where do I see past invoices. Thank you!,Billing,Low,P3,KB004,AUTO
+Quick question: How long do you retain backups. Thanks.,General Information,Medium,P3,,REV
+"Hi, backup codes are gone and I cannot pass verification. Regards, Sam",Login / Access,Medium,P2,KB003,REV
+Does it work on tablets.,General Information,Low,P4,KB011,AUTO
+"Hi support, export to csv hangs forever. Any help appreciated.",Technical Error,Medium,P2,KB007,REV
+"Dear support, how do I unlock my account.",Login / Access,Low,P3,KB002,AUTO
+"Hello, I need help. How much does Basic cost per user.",General Information,Low,P4,KB010,AUTO
+Quick question: How do I add a teammate.,General Information,Low,P4,KB015,AUTO
+"Hey, loading screen spins for minutes. Please advise.",Technical Error,Medium,P3,KB008,REV
+"Hi, how long do you retain backups. Any help appreciated.",General Information,Medium,P3,,REV
+Good morning. It is not working.,Technical Error,Medium,P3,,INFO
+"Hey, feature request: templates for recurring projects. Any help appreciated.",Feature Request,Low,P4,KB013,FEED
+"PDF export creates a blank page. Regards, Sam",Technical Error,Medium,P2,KB007,REV
+Good morning. How can I set a new password.,Login / Access,Low,P3,KB001,AUTO
+"Dear support, two-way sync with Outlook calendar broke. Any help appreciated.",Technical Error,Medium,P3,KB009,REV
+Do you have a nonprofit price. Thanks.,General Information,Medium,P3,,REV
+Forgot the password for my TaskNest login. Cheers,Login / Access,Low,P3,KB001,AUTO
+"Hello team, everyone gets a 503 error. Please advise.",Technical Error,High,P1,KB014,URG
+"Hi support, need 2FA turned off because the verification code never comes. Thanks.",Login / Access,Medium,P2,KB003,REV
+Is audit export part of Business. Thanks.,General Information,Low,P4,KB010,AUTO
+"Hi, the card on file is outdated. Please advise.",Billing,Low,P3,KB005,AUTO
+Your fix did not help. Cheers,Unresolved Issue,High,P2,,REV
+"Urgent? Not sure, but need SAML login set up with our identity provider. Any help appreciated.",Login / Access,Medium,P2,,REV
+My edits revert after refresh.,Technical Error,Medium,P3,,REV
+"Hey, I think someone hacked our workspace.",Technical Error,High,P1,,URG
+"Hey, no change after following all instructions.",Unresolved Issue,High,P2,,REV
+"Good morning. What is the largest import allowed. Regards, Sam",General Information,Low,P4,KB012,AUTO
+"Urgent? Not sure, but complete service unavailable since this morning. Cheers",Technical Error,High,P1,KB014,URG
+"Hi, we got overcharged, please check.",Billing,Medium,P2,KB016,REV
+Good morning. Unauthorised export of all projects happened overnight. Cheers,Technical Error,High,P1,,URG
+"Hi, scrolling is choppy on big lists.",Technical Error,Medium,P3,KB008,REV
+"Hi support, we discovered a leaked access token.",Technical Error,High,P1,,URG
+"Hi support, there is a duplicate charge on my card. Cheers",Billing,Medium,P2,KB016,REV
+I get redirected back to the sign in screen repeatedly.,Login / Access,Medium,P2,,REV
+"Hi support, can we sign a DPA. Cheers",General Information,Medium,P3,,REV
+Help me please. Please advise.,Technical Error,Medium,P3,,INFO
+Quick question: Change payment method please.,Billing,Low,P3,KB005,AUTO
+Exporting a report gives an internal server error. Thanks.,Technical Error,Medium,P2,KB007,REV
+"Hello, I need help. Problem. Thanks.",Technical Error,Medium,P3,,INFO
+"Everything is down, entire company is blocked.",Technical Error,High,P1,KB014,URG
+Good morning. I got blocked from signing in after a few wrong tries.,Login / Access,Low,P3,KB002,AUTO
+"Urgent? Not sure, but an unknown person has admin rights in our workspace. Thanks.",Technical Error,High,P1,,URG
+"Dear support, what operating systems does the app support.",General Information,Low,P4,KB011,AUTO
+"Hi support, I was billed twice this month. Thanks.",Billing,Medium,P2,KB016,REV
+"Hi support, how do I add a teammate.",General Information,Low,P4,KB015,AUTO
+"Hi, where are your servers located. Any help appreciated.",General Information,Medium,P3,,REV
+"Hi, everything is down, entire company is blocked.",Technical Error,High,P1,KB014,URG
+"Hi, what uptime do you commit to. Please advise.",General Information,Medium,P3,,REV
+"Exported hours do not add up. Regards, Sam",Technical Error,Medium,P3,,REV
+Where are your servers located. Cheers,General Information,Medium,P3,,REV
+"Hey, we discovered a leaked access token. Thank you!",Technical Error,High,P1,,URG
+"Hello team, need tax details on the invoice for the audit.",Billing,Medium,P2,,REV
+"Urgent? Not sure, but send security details for vendor review. Please advise.",General Information,Medium,P3,,REV
+"Hi support, the platform is unreachable for all our teams.",Technical Error,High,P1,KB014,URG
+I am locked out after entering the wrong password.,Login / Access,Low,P3,KB002,AUTO
+"Hi support, I would like to suggest a calendar view with weeks. Cheers",Feature Request,Low,P4,KB013,FEED
+Add the ability to pin projects. Cheers,Feature Request,Low,P4,KB013,FEED
+"Urgent? Not sure, but I wish tasks could be linked to documents. Cheers",Feature Request,Low,P4,KB013,FEED
+The email with the new password link has not come through. Any help appreciated.,Login / Access,Low,P3,KB001,AUTO
+"Hi support, what does the Pro plan include. Any help appreciated.",General Information,Low,P4,KB010,AUTO
+"Hey, who can remove members.",General Information,Low,P4,KB015,AUTO
+"Urgent? Not sure, but pages are loading slowly since yesterday.",Technical Error,Medium,P3,KB008,REV
+"Hi, my two-factor codes are not accepted.",Login / Access,Medium,P2,KB003,REV
+"Hello, I need help. How can I cancel the subscription.",Billing,Low,P3,KB006,AUTO
+"Dear support, invoice total is wrong for our number of seats. Thank you!",Billing,Medium,P2,,REV
+"Urgent? Not sure, but authenticator app was wiped from my phone.",Login / Access,Medium,P2,KB003,REV
+"Dear support, please refund the last payment. Thank you!",Billing,Medium,P2,KB016,REV
+"Hey, I wrote twice already about this and still no solution. Any help appreciated.",Unresolved Issue,High,P2,,REV
+"Hello team, an extra payment was taken from our card.",Billing,Medium,P2,KB016,REV
+"Hey, weekly time report has wrong totals.",Technical Error,Medium,P3,,REV
+"Hello team, how do roles work.",General Information,Low,P4,KB015,AUTO
+Complete service unavailable since this morning. Thanks.,Technical Error,High,P1,KB014,URG
+"Urgent? Not sure, but site is down for every team, please escalate.",Technical Error,High,P1,KB014,URG
+Quick question: Can I downgrade next billing cycle. Thank you!,Billing,Low,P3,KB006,AUTO
+"Hi support, the workaround did not work for us.",Unresolved Issue,High,P2,,REV
+"Hi, my reset link is not working. Thanks.",Login / Access,Low,P3,KB001,AUTO
+"Hi support, exports are failing for the big project. Cheers",Technical Error,Medium,P2,KB007,REV
+"Hi support, I get an error 500 on the timeline page. Thank you!",Technical Error,Medium,P3,,REV
+"Hey, someone unknown accessed our account and downloaded data. Please advise.",Technical Error,High,P1,,URG
+Quick question: Do you have an iPhone app. Cheers,General Information,Low,P4,KB011,AUTO
+Performance has gotten much worse for me. Any help appreciated.,Technical Error,Medium,P3,KB008,REV
+"Hey, add a new credit card for future payments. Thanks.",Billing,Low,P3,KB005,AUTO
+Very laggy this afternoon. Please advise.,Technical Error,Medium,P3,KB008,REV
+"Hi, site is down for every team, please escalate. Any help appreciated.",Technical Error,High,P1,KB014,URG
+"Hey, I would like to switch to a smaller plan.",Billing,Low,P3,KB006,AUTO
+How do roles work. Thank you!,General Information,Low,P4,KB015,AUTO
+I get redirected back to the sign in screen repeatedly. Any help appreciated.,Login / Access,Medium,P2,,REV
+Good morning. How do I change plans.,Billing,Low,P3,KB006,AUTO
+"Hi support, exported pdf has no content.",Technical Error,Medium,P2,KB007,REV
+"Hey, problem. Any help appreciated.",Technical Error,Medium,P3,,INFO
+"Hey, very laggy this afternoon. Cheers",Technical Error,Medium,P3,KB008,REV
+Good morning. PDF export creates a blank page. Thanks.,Technical Error,Medium,P2,KB007,REV
+Please add a dark theme.,Feature Request,Low,P4,KB013,FEED
+What are the limits on the free plan. Any help appreciated.,General Information,Low,P4,KB010,AUTO
+"Hi support, board drag and drop is broken in my browser. Any help appreciated.",Technical Error,Medium,P3,,REV
+"Urgent? Not sure, but an extra payment was taken from our card. Please advise.",Billing,Medium,P2,KB016,REV
+Quick question: How do I load a backlog from another system. Thanks.,General Information,Low,P4,KB012,AUTO
+"Hello team, TaskNest is not loading for any of our staff.",Technical Error,High,P1,KB014,URG
+"Dear support, do you support importing from Asana.",General Information,Low,P4,KB012,AUTO
+"Hey, new feature idea: custom statuses with colours.",Feature Request,Low,P4,KB013,FEED
+"Hello, I need help. Lost the second factor, how do I get in. Thank you!",Login / Access,Medium,P2,KB003,REV
+"Hello team, problem persists even after reinstalling.",Unresolved Issue,High,P2,,REV
+"Hi support, what is the difference between admin and member. Please advise.",General Information,Low,P4,KB015,AUTO
+"Hi, my bank declined the payment but the card is fine.",Billing,Medium,P2,,REV
+"Hi support, how long do you retain backups.",General Information,Medium,P3,,REV
+"Urgent? Not sure, but problem persists even after reinstalling.",Unresolved Issue,High,P2,,REV
+"Hello team, I need assistance. Cheers",Technical Error,Medium,P3,,INFO
+Doesn't work. Please advise.,Technical Error,Medium,P3,,INFO
+"Which payment options can I use. Regards, Sam",Billing,Low,P3,KB005,AUTO
+"Hi support, suspicious login from a country we do not operate in.",Technical Error,High,P1,,URG
+Quick question: How do I replace the credit card on file. Thank you!,Billing,Low,P3,KB005,AUTO
+"Hi support, sign in fails with unknown error for the whole finance group.",Login / Access,Medium,P2,,REV
+Doesn't work. Thanks.,Technical Error,Medium,P3,,INFO
+"Hey, stop our subscription at the end of the month. Cheers",Billing,Low,P3,KB006,AUTO
+"Hey, what is the monthly price of the Business plan. Cheers",General Information,Low,P4,KB010,AUTO
+"Hey, the export button fails with an error message.",Technical Error,Medium,P2,KB007,REV
+"Urgent? Not sure, but I think someone hacked our workspace.",Technical Error,High,P1,,URG
+"Hi support, difference between the plans. Regards, Sam",General Information,Low,P4,KB010,AUTO
+"Urgent? Not sure, but board drag and drop is broken in my browser. Cheers",Technical Error,Medium,P3,,REV
+"Hi, comments vanish after reloading. Any help appreciated.",Technical Error,Medium,P3,,REV
+"Dear support, error on my screen. Cheers",Technical Error,Medium,P3,,INFO
+"Can't remember my login password, how do I recover it. Cheers",Login / Access,Low,P3,KB001,AUTO
+"Hello, I need help. What are the limits on the free plan.",General Information,Low,P4,KB010,AUTO
+"Dear support, everything is down, entire company is blocked.",Technical Error,High,P1,KB014,URG
+Good morning. Can guests see all projects. Please advise.,General Information,Low,P4,KB015,AUTO
+"Hi, do I get unlimited members with Business.",General Information,Low,P4,KB010,AUTO
+"Hello, I need help. Someone unknown accessed our account and downloaded data. Please advise.",Technical Error,High,P1,,URG
+"Hi support, an invited teammate cannot accept the invite.",Login / Access,Medium,P2,,REV
+"Hello, I need help. Something is wrong. Cheers",Technical Error,Medium,P3,,INFO
+The invoice shows the wrong company name.,Billing,Medium,P2,,REV
+"Urgent? Not sure, but the calendar integration shows events a day late.",Technical Error,Medium,P3,KB009,REV
+"Hello team, I was charged during the free trial.",Billing,Medium,P2,,REV
+"Dear support, I was charged during the free trial.",Billing,Medium,P2,,REV
+"Hello team, the app is very slow. Cheers",Technical Error,Medium,P3,KB008,REV
+"Hello, I need help. Invoice total is wrong for our number of seats.",Billing,Medium,P2,,REV
+Do you support importing from Asana.,General Information,Low,P4,KB012,AUTO
+Good morning. TaskNest feels sluggish on my laptop.,Technical Error,Medium,P3,KB008,REV
+Suspicious login from a country we do not operate in. Please advise.,Technical Error,High,P1,,URG
+"Dear support, can't recall my sign-in password, what now. Thank you!",Login / Access,Low,P3,KB001,AUTO
+"Hello, I need help. Our card has expired, where do I add a new one.",Billing,Low,P3,KB005,AUTO
+"Hi support, do you plan to add an offline mode. Thank you!",Feature Request,Low,P4,KB013,FEED
+Application is not reachable for any of our employees.,Technical Error,High,P1,KB014,URG
+"Hello team, could you add a feature for task dependencies. Thank you!",Feature Request,Low,P4,KB013,FEED
+We need invoices in a different currency. Please advise.,Billing,Medium,P2,,REV
+How to configure single sign-on for our company. Cheers,Login / Access,Medium,P2,,REV
+"Hi support, something happened. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Slack messages from TaskNest stopped arriving. Regards, Sam",Technical Error,Medium,P3,KB009,REV
+"Hi support, not working for me.",Technical Error,Medium,P3,,INFO
+"Urgent? Not sure, but I got blocked from signing in after a few wrong tries. Thanks.",Login / Access,Low,P3,KB002,AUTO
+"Hi support, which tier has SSO. Cheers",General Information,Low,P4,KB010,AUTO
+How can I set a new password. Cheers,Login / Access,Low,P3,KB001,AUTO
+How to import tasks from a CSV file. Thanks.,General Information,Low,P4,KB012,AUTO
+"Urgent? Not sure, but I need a fresh password for my account. Regards, Sam",Login / Access,Low,P3,KB001,AUTO
+Good morning. I do not remember my password. Cheers,Login / Access,Low,P3,KB001,AUTO
+"Cost of the Pro tier. Regards, Sam",General Information,Low,P4,KB010,AUTO
+Who can remove members. Thanks.,General Information,Low,P4,KB015,AUTO
+"Hey, integration keeps disconnecting every few days.",Technical Error,Medium,P3,KB009,REV
+"Hi, the whole service is down for all users. Please advise.",Technical Error,High,P1,KB014,URG
+"Urgent? Not sure, but file upload fails for large attachments.",Technical Error,Medium,P3,,REV
+"Dear support, site is down for every team, please escalate.",Technical Error,High,P1,KB014,URG
+Quick question: The app is very slow. Thank you!,Technical Error,Medium,P3,KB008,REV
+"Hey, when will the new plan start after I upgrade. Cheers",Billing,Low,P3,KB006,AUTO
+Good morning. There is a duplicate charge on my card. Thank you!,Billing,Medium,P2,KB016,REV
+"Dear support, where is the forgot password option.",Login / Access,Low,P3,KB001,AUTO
+"Hi, the workaround did not work for us.",Unresolved Issue,High,P2,,REV
+Difference between the plans. Thanks.,General Information,Low,P4,KB010,AUTO
+"Hello team, not working for me. Cheers",Technical Error,Medium,P3,,INFO
+"Urgent? Not sure, but security incident: private project visible to outsiders. Please advise.",Technical Error,High,P1,,URG
+Quick question: Complete service unavailable since this morning.,Technical Error,High,P1,KB014,URG
+"Quick question: Can you look into this. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Hi support, still seeing the same error after the workaround.",Unresolved Issue,High,P2,,REV
+Quick question: Login blocked because of failed attempts.,Login / Access,Low,P3,KB002,AUTO
+"Dear support, are there mobile apps. Thank you!",General Information,Low,P4,KB011,AUTO
+"Hello, I need help. Can I run it in Firefox. Please advise.",General Information,Low,P4,KB011,AUTO
+Quick question: Still seeing the same error after the workaround. Thank you!,Unresolved Issue,High,P2,,REV
+"Urgent? Not sure, but this is the third time I report this issue.",Unresolved Issue,High,P2,,REV
+"Hello, I need help. Sign in fails with unknown error for the whole finance group.",Login / Access,Medium,P2,,REV
+"Hey, all our users see a gateway error. Thanks.",Technical Error,High,P1,KB014,URG
+"Hello, I need help. Login page keeps refreshing without letting me in. Thanks.",Login / Access,Medium,P2,,REV
+Can guests see all projects. Cheers,General Information,Low,P4,KB015,AUTO
+Ask for a refund since we did not use the product.,Billing,Medium,P2,KB016,REV
+"Hey, an issue again.",Technical Error,Medium,P3,,INFO
+I need a fresh password for my account. Any help appreciated.,Login / Access,Low,P3,KB001,AUTO
+"Hi support, payment did not go through and we lost write access. Regards, Sam",Billing,Medium,P2,,REV
+"Hey, authenticator app was wiped from my phone. Thanks.",Login / Access,Medium,P2,KB003,REV
+"Hello, I need help. Billing contact change request with a tax number. Please advise.",Billing,Medium,P2,,REV
+Good morning. Invitation link for the new colleague does not work.,Login / Access,Medium,P2,,REV
+"Hello team, do you have a nonprofit price. Thank you!",General Information,Medium,P3,,REV
+"Urgent? Not sure, but can I get a receipt for our records. Any help appreciated.",Billing,Low,P3,KB004,AUTO
+How do I unlock my account.,Login / Access,Low,P3,KB002,AUTO
+"Hello team, difference between the plans. Thanks.",General Information,Low,P4,KB010,AUTO
+"Hi support, it would help to have bulk actions on cards.",Feature Request,Low,P4,KB013,FEED
+The amount charged is twice what I expected. Any help appreciated.,Billing,Medium,P2,KB016,REV
+"Hello, I need help. Are there mobile apps. Thanks.",General Information,Low,P4,KB011,AUTO
+"Hello, I need help. Request: reminder emails for overdue tasks. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+A huge project takes ages to open. Thank you!,Technical Error,Medium,P3,KB008,REV
+"Hello, I need help. Exports are failing for the big project. Cheers",Technical Error,Medium,P2,KB007,REV
+"Good morning. Webhook calls fire twice. Regards, Sam",Technical Error,Medium,P3,,REV
+"Hi, outage: nobody in our company can open TaskNest.",Technical Error,High,P1,KB014,URG
+Quick question: My account was compromised and I see strange activity. Please advise.,Technical Error,High,P1,,URG
+"Hi support, send security details for vendor review.",General Information,Medium,P3,,REV
+Which web browsers are supported. Any help appreciated.,General Information,Low,P4,KB011,AUTO
+Good morning. I think someone hacked our workspace. Thanks.,Technical Error,High,P1,,URG
+"Hey, do you plan to add an offline mode. Any help appreciated.",Feature Request,Low,P4,KB013,FEED
+"Hi support, locked out for fifteen minutes, can I speed that up.",Login / Access,Low,P3,KB002,AUTO
+My account is locked. Thank you!,Login / Access,Low,P3,KB002,AUTO
+"Urgent? Not sure, but I cannot reach my account after changing my email. Thanks.",Login / Access,Medium,P2,,REV
+"Hey, weekly time report has wrong totals. Thanks.",Technical Error,Medium,P3,,REV
+"Hi support, please add a dark theme.",Feature Request,Low,P4,KB013,FEED
+"Hey, nothing helped, issue still open. Please advise.",Unresolved Issue,High,P2,,REV
+A stranger was added as workspace admin. Cheers,Technical Error,High,P1,,URG
+"Hello team, I'd like the invoice for the quarter.",Billing,Low,P3,KB004,AUTO
+"Hey, there is a problem. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Hello team, problem.",Technical Error,Medium,P3,,INFO
+"Lost the second factor, how do I get in. Thanks.",Login / Access,Medium,P2,KB003,REV
+"Hello, I need help. Complete service unavailable since this morning. Please advise.",Technical Error,High,P1,KB014,URG
+"Good morning. Migrating from another tool, is there an importer. Thanks.",General Information,Low,P4,KB012,AUTO
+Login page keeps refreshing without letting me in. Thanks.,Login / Access,Medium,P2,,REV
+"Is audit export part of Business. Regards, Sam",General Information,Low,P4,KB010,AUTO
+"Dear support, we want to upgrade our plan.",Billing,Low,P3,KB006,AUTO
+Can I move my Trello board into TaskNest. Thank you!,General Information,Low,P4,KB012,AUTO
+"Hi support, where is the forgot password option. Cheers",Login / Access,Low,P3,KB001,AUTO
+Credentials were shared with someone suspicious and now strange activity appears. Cheers,Technical Error,High,P1,,URG
+Quick question: Security incident: private project visible to outsiders. Cheers,Technical Error,High,P1,,URG
+"Hello team, how soon can I try logging in again after being locked. Thanks.",Login / Access,Low,P3,KB002,AUTO
+Our private data is exposed to another customer. Thanks.,Technical Error,High,P1,,URG
+"Hey, the whole service is down for all users.",Technical Error,High,P1,KB014,URG
+Pdf of the invoice for the finance team. Cheers,Billing,Low,P3,KB004,AUTO
+"Hey, I already did everything the guide says. Thank you!",Unresolved Issue,High,P2,,REV
+"Hi, there is a duplicate charge on my card. Any help appreciated.",Billing,Medium,P2,KB016,REV
+"Urgent? Not sure, but give a coworker more permissions. Thank you!",General Information,Low,P4,KB015,AUTO
+"Hi support, it would help to have bulk actions on cards. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+How do I get the billing history.,Billing,Low,P3,KB004,AUTO
+"Hello team, cost of the Pro tier. Cheers",General Information,Low,P4,KB010,AUTO
+"Urgent? Not sure, but automation rule runs twice.",Technical Error,Medium,P3,,REV
+"Hello, I need help. No change after following all instructions.",Unresolved Issue,High,P2,,REV
+"Hi, my edits revert after refresh. Thank you!",Technical Error,Medium,P3,,REV
+"Dear support, suggestion: reminders by SMS. Thank you!",Feature Request,Low,P4,KB013,FEED
+Good morning. The invoice lists a plan we do not use.,Billing,Medium,P2,,REV
+"Dear support, it came back after you closed my ticket.",Unresolved Issue,High,P2,,REV
+Performance has gotten much worse for me.,Technical Error,Medium,P3,KB008,REV
+Good morning. Bring existing tasks from a spreadsheet.,General Information,Low,P4,KB012,AUTO
+"Hello, I need help. I was charged during the free trial. Please advise.",Billing,Medium,P2,,REV
+"Hello, I need help. No one in the organisation can use the product. Cheers",Technical Error,High,P1,KB014,URG
+"Dear support, our private data is exposed to another customer.",Technical Error,High,P1,,URG
+"Hi support, there is a problem. Please advise.",Technical Error,Medium,P3,,INFO
+"Everything is down, entire company is blocked. Thank you!",Technical Error,High,P1,KB014,URG
+"Hello team, I would like to suggest a calendar view with weeks. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+"Hello team, can I run it in Firefox. Thank you!",General Information,Low,P4,KB011,AUTO
+"Hello, I need help. Something is wrong. Regards, Sam",Technical Error,Medium,P3,,INFO
+"Hello, I need help. I cannot log in to my workspace and need it today. Please advise.",Login / Access,Medium,P2,,REV
+Not working for me. Thank you!,Technical Error,Medium,P3,,INFO
+"Hello team, can I move my Trello board into TaskNest. Any help appreciated.",General Information,Low,P4,KB012,AUTO
+How can I cancel the subscription.,Billing,Low,P3,KB006,AUTO
+Quick question: Is there a discount for charities.,General Information,Medium,P3,,REV
+Send me the receipt for the payment. Thank you!,Billing,Low,P3,KB004,AUTO
+Outage: nobody in our company can open TaskNest. Please advise.,Technical Error,High,P1,KB014,URG
+Good morning. Report download throws a server error. Please advise.,Technical Error,Medium,P2,KB007,REV
+Good morning. Comments vanish after reloading. Cheers,Technical Error,Medium,P3,,REV
+Good morning. Which web browsers are supported. Thank you!,General Information,Low,P4,KB011,AUTO
+"Urgent? Not sure, but we want to upgrade our plan. Please advise.",Billing,Low,P3,KB006,AUTO
+Quick question: Doesn't work.,Technical Error,Medium,P3,,INFO
+"Dear support, could the sidebar be made smaller. Thank you!",Feature Request,Low,P4,KB013,FEED
+"Urgent? Not sure, but the platform is unreachable for all our teams.",Technical Error,High,P1,KB014,URG
+"Urgent? Not sure, but two step verification codes are invalid. Please advise.",Login / Access,Medium,P2,KB003,REV
+"Hello team, the integration with Google Calendar lost connection.",Technical Error,Medium,P3,KB009,REV
+"Our team lead cannot access the workspace. Regards, Sam",Login / Access,Medium,P2,,REV
+Webhook calls fire twice. Please advise.,Technical Error,Medium,P3,,REV
+The calendar page returns a 500 error.,Technical Error,Medium,P3,,REV
+"Hi support, a stranger was added as workspace admin. Thanks.",Technical Error,High,P1,,URG
+Good morning. Which tier has SSO. Thank you!,General Information,Low,P4,KB010,AUTO
+"Urgent? Not sure, but how do I load a backlog from another system.",General Information,Low,P4,KB012,AUTO
+"Hello, I need help. The password reset mail is missing.",Login / Access,Low,P3,KB001,AUTO
+I get redirected back to the sign in screen repeatedly. Thanks.,Login / Access,Medium,P2,,REV
+Problem persists even after reinstalling.,Unresolved Issue,High,P2,,REV
+"Hi support, report download throws a server error. Regards, Sam",Technical Error,Medium,P2,KB007,REV
+"Hello, I need help. Supported operating systems for the app.",General Information,Low,P4,KB011,AUTO
+Quick question: My account is locked. Thanks.,Login / Access,Low,P3,KB002,AUTO
+Login blocked because of failed attempts. Any help appreciated.,Login / Access,Low,P3,KB002,AUTO
+"Hi, please refund the last payment. Any help appreciated.",Billing,Medium,P2,KB016,REV
+"Hello, I need help. The integration with Google Calendar lost connection. Thanks.",Technical Error,Medium,P3,KB009,REV
+"Hello team, billed more than agreed in the quote. Please advise.",Billing,Medium,P2,KB016,REV
+"Hi support, new feature idea: custom statuses with colours. Regards, Sam",Feature Request,Low,P4,KB013,FEED
+Quick question: Do I get unlimited members with Business. Cheers,General Information,Low,P4,KB010,AUTO
+"Hi support, someone unknown accessed our account and downloaded data. Thanks.",Technical Error,High,P1,,URG
+"Our card has expired, where do I add a new one.",Billing,Low,P3,KB005,AUTO
+"Hello, I need help. File upload fails for large attachments.",Technical Error,Medium,P3,,REV
+"Dear support, what does the Pro plan include.",General Information,Low,P4,KB010,AUTO
+Quick question: Need help urgently. Thank you!,Technical Error,Medium,P3,,INFO
+"Hi, are there mobile apps. Thanks.",General Information,Low,P4,KB011,AUTO
+"Hey, need help urgently.",Technical Error,Medium,P3,,INFO
+"Good morning. Migrating from another tool, is there an importer. Any help appreciated.",General Information,Low,P4,KB012,AUTO
+"Hello team, how should we organise projects across regions. Cheers",General Information,Medium,P3,,REV
+"Hi, would be nice to have colours for custom fields. Thanks.",Feature Request,Low,P4,KB013,FEED
+"Hello team, can't remember my login password, how do I recover it. Regards, Sam",Login / Access,Low,P3,KB001,AUTO
+"Hello, I need help. No one in the organisation can use the product. Regards, Sam",Technical Error,High,P1,KB014,URG
+Good morning. Loading screen spins for minutes.,Technical Error,Medium,P3,KB008,REV
+"Urgent? Not sure, but I want my money back for the annual plan.",Billing,Medium,P2,KB016,REV
+Do you have an iPhone app. Thank you!,General Information,Low,P4,KB011,AUTO
+My edits revert after refresh. Please advise.,Technical Error,Medium,P3,,REV
+What compliance certifications do you hold. Thank you!,General Information,Medium,P3,,REV
+"Hello team, add the ability to pin projects. Cheers",Feature Request,Low,P4,KB013,FEED
+"Hello team, employees replied to a phishing mail pretending to be you. Regards, Sam",Technical Error,High,P1,,URG
+"Hello, I need help. Outage: nobody in our company can open TaskNest. Please advise.",Technical Error,High,P1,KB014,URG
+"Hello, I need help. When does the sign-in block end.",Login / Access,Low,P3,KB002,AUTO
+Unauthorised export of all projects happened overnight. Cheers,Technical Error,High,P1,,URG
+How much does Basic cost per user. Thanks.,General Information,Low,P4,KB010,AUTO
+"Quick question: I see two charges for the same invoice. Regards, Sam",Billing,Medium,P2,KB016,REV
+"Hi, I need a fresh password for my account. Thank you!",Login / Access,Low,P3,KB001,AUTO
+"Hello team, I already did everything the guide says.",Unresolved Issue,High,P2,,REV
+"Hello team, give a coworker more permissions.",General Information,Low,P4,KB015,AUTO
+"Hello team, what is the difference between admin and member. Cheers",General Information,Low,P4,KB015,AUTO
+"Urgent? Not sure, but suspicious login from a country we do not operate in.",Technical Error,High,P1,,URG
